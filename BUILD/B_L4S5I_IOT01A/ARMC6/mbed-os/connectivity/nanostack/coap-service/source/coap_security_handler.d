@@ -3,6 +3,7 @@ BUILD\B_L4S5I_IOT01A\ARMC6\mbed-os\connectivity\nanostack\coap-service\source\co
   BUILD\B_L4S5I_IOT01A\ARMC6\mbed_config.h \
   mbed-os\connectivity\nanostack\coap-service\source\include\coap_security_handler.h \
   mbed-os\connectivity\libraries\nanostack-libservice\mbed-client-libservice\ns_types.h \
+  mbed-os\connectivity\mbedtls\include\mbedtls\version.h \
   mbed-os\connectivity\mbedtls\include\mbedtls\config.h \
   mbed-os\connectivity\mbedtls\platform\inc\platform_mbed.h \
   mbed-os\connectivity\drivers\mbedtls\TARGET_STM\TARGET_STM32L4S5xI\mbedtls_device.h \
@@ -29,7 +30,6 @@ BUILD\B_L4S5I_IOT01A\ARMC6\mbed-os\connectivity\nanostack\coap-service\source\co
   mbed-os\connectivity\mbedtls\include\mbedtls\ssl_cookie.h \
   mbed-os\connectivity\mbedtls\include\mbedtls\entropy.h \
   mbed-os\connectivity\mbedtls\include\mbedtls\sha512.h \
-  mbed-os\connectivity\mbedtls\include\mbedtls\entropy_poll.h \
   mbed-os\connectivity\mbedtls\include\mbedtls\ctr_drbg.h \
   mbed-os\connectivity\mbedtls\include\mbedtls\aes.h \
   mbed-os\connectivity\drivers\mbedtls\TARGET_STM\aes_alt.h \

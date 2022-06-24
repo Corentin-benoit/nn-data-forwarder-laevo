@@ -41,7 +41,6 @@
 
 #include "LSM6DSLSensor.h"
 
-
 /* Class Implementation ------------------------------------------------------*/
 
 LSM6DSLSensor::LSM6DSLSensor(SPI *spi, PinName cs_pin, PinName int1_pin, PinName int2_pin, SPI_type_t spi_type ) : 
@@ -1105,7 +1104,11 @@ int LSM6DSLSensor::reset_step_counter(void)
     return 1;
   }
   
-  wait_us(10000);
+#if MBED_MAJOR_VERSION == 5
+  wait_ms(10);
+#else
+  ThisThread::sleep_for(10ms);
+#endif
   
   if ( LSM6DSL_ACC_GYRO_W_PedoStepReset( (void *)this, LSM6DSL_ACC_GYRO_PEDO_RST_STEP_DISABLED ) == MEMS_ERROR )
   {

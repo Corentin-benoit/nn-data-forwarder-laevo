@@ -22,6 +22,7 @@ BUILD\B_L4S5I_IOT01A\ARMC6\mbed-os\connectivity\nanostack\coap-service\source\co
   mbed-os\connectivity\nanostack\coap-service\source\include\coap_service_api_internal.h \
   mbed-os\connectivity\nanostack\coap-service\source\include\coap_message_handler.h \
   mbed-os\connectivity\nanostack\coap-service\source\include\coap_security_handler.h \
+  mbed-os\connectivity\mbedtls\include\mbedtls\version.h \
   mbed-os\connectivity\mbedtls\include\mbedtls\config.h \
   mbed-os\connectivity\mbedtls\platform\inc\platform_mbed.h \
   mbed-os\connectivity\drivers\mbedtls\TARGET_STM\TARGET_STM32L4S5xI\mbedtls_device.h \

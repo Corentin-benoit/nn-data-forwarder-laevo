@@ -122,18 +122,23 @@ BUILD\B_L4S5I_IOT01A\ARMC6\mbed-os\connectivity\lwipstack\lwip-sys\arch\lwip_sys
   mbed-os\cmsis\device\rtos\include\mbed_rtx_storage.h \
   mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Include\rtx_os.h \
   mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\Include\cmsis_os2.h \
+  mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Include\rtx_def.h \
+  mbed-os\cmsis\device\RTE\include\RTE_Components.h \
   mbed-os\cmsis\device\rtos\include\mbed_rtx_conf.h \
   mbed-os\targets\TARGET_STM\mbed_rtx.h \
+  mbed-os\cmsis\device\mbed_cmsis_conf.h \
+  mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Config\RTX_Config.h \
+  mbed-os\cmsis\device\rtos\include\mbed_rtx_conf.h \
   mbed-os\connectivity\lwipstack\lwip\src\include\lwip\opt.h \
   mbed-os\connectivity\lwipstack\include\lwipstack\lwipopts.h \
   mbed-os\connectivity\netsocket\include\netsocket\nsapi_types.h \
+  mbed-os\platform\include\platform\mbed_toolchain.h \
   mbed-os\platform\include\platform\mbed_retarget.h \
   mbed-os\connectivity\lwipstack\lwip-sys\lwip_random.h \
   mbed-os\connectivity\lwipstack\lwip-sys\lwip_tcp_isn.h \
   mbed-os\connectivity\lwipstack\lwip\src\include\lwip\debug.h \
   mbed-os\connectivity\lwipstack\lwip\src\include\lwip\arch.h \
   mbed-os\connectivity\lwipstack\lwip-sys\arch\cc.h \
-  mbed-os\platform\include\platform\mbed_toolchain.h \
   mbed-os\connectivity\lwipstack\lwip\src\include\lwip\def.h \
   mbed-os\connectivity\lwipstack\lwip\src\include\lwip\sys.h \
   mbed-os\connectivity\lwipstack\lwip\src\include\lwip\err.h \

@@ -97,7 +97,7 @@ public:
      * @param  motorId from 0 to (MAX_NUMBER_OF_BRUSH_DC_MOTORS - 1). 
      * @retval The device state
      */
-    virtual motorState_t get_device_state(unsigned int) = 0;
+    virtual unsigned int get_device_state(unsigned int) = 0;
 
     /**
      * @brief  Getting the current speed in % of the specified motor.

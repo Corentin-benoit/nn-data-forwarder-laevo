@@ -2,11 +2,13 @@ BUILD\B_L4S5I_IOT01A\ARMC6\mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Source\rtx_thre
   mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Source\rtx_thread.c \
   BUILD\B_L4S5I_IOT01A\ARMC6\mbed_config.h \
   mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Source\rtx_lib.h \
-  mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Source\rtx_core_c.h \
+  mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Include\rtx_def.h \
   mbed-os\cmsis\device\RTE\include\RTE_Components.h \
   mbed-os\cmsis\device\rtos\include\mbed_rtx_conf.h \
   mbed-os\targets\TARGET_STM\mbed_rtx.h \
   mbed-os\cmsis\device\mbed_cmsis_conf.h \
+  mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Config\RTX_Config.h \
+  mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Source\rtx_core_c.h \
   mbed-os\targets\TARGET_STM\TARGET_STM32L4\cmsis.h \
   mbed-os\targets\TARGET_STM\TARGET_STM32L4\STM32Cube_FW\CMSIS\stm32l4xx.h \
   mbed-os\targets\TARGET_STM\TARGET_STM32L4\STM32Cube_FW\CMSIS\stm32l4s5xx.h \
@@ -102,7 +104,7 @@ BUILD\B_L4S5I_IOT01A\ARMC6\mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Source\rtx_thre
   mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Source\rtx_core_cm.h \
   mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\Include\os_tick.h \
   mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\Include\cmsis_os2.h \
-  mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Config\RTX_Config.h \
   mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Include\rtx_os.h \
+  mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Include\rtx_def.h \
   mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Include\rtx_evr.h \
   mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Include\rtx_os.h

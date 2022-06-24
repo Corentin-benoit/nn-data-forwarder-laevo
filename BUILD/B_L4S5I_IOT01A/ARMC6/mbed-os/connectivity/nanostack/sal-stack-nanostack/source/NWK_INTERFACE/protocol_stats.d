@@ -15,7 +15,9 @@ BUILD\B_L4S5I_IOT01A\ARMC6\mbed-os\connectivity\nanostack\sal-stack-nanostack\so
   mbed-os\connectivity\nanostack\sal-stack-nanostack\source\configs\base\cfg_lowpan_host.h \
   mbed-os\connectivity\nanostack\sal-stack-nanostack\source\configs\base\cfg_local_socket.h \
   mbed-os\connectivity\nanostack\sal-stack-nanostack\source\configs\base\cfg_rf_tunnel.h \
+  mbed-os\connectivity\nanostack\sal-stack-nanostack\source\configs\base\cfg_ws_full.h \
   mbed-os\connectivity\nanostack\sal-stack-nanostack\source\configs\base\cfg_ws_border_router.h \
   mbed-os\connectivity\nanostack\sal-stack-nanostack\source\configs\base\cfg_ws_router.h \
+  mbed-os\connectivity\nanostack\sal-stack-nanostack\source\configs\base\cfg_ws_host.h \
   mbed-os\connectivity\nanostack\sal-stack-nanostack\nanostack\nwk_stats_api.h \
   mbed-os\connectivity\nanostack\sal-stack-nanostack\source\NWK_INTERFACE\Include\protocol_stats.h

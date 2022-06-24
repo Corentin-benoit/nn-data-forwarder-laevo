@@ -148,10 +148,15 @@ BUILD\B_L4S5I_IOT01A\ARMC6\mbed-os\connectivity\drivers\wifi\esp8266-driver\ESP8
   mbed-os\rtos\include\rtos\internal\mbed_rtos1_types.h \
   mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Include1\cmsis_os.h \
   mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Include\rtx_os.h \
+  mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Include\rtx_def.h \
+  mbed-os\cmsis\device\RTE\include\RTE_Components.h \
+  mbed-os\cmsis\device\rtos\include\mbed_rtx_conf.h \
+  mbed-os\targets\TARGET_STM\mbed_rtx.h \
+  mbed-os\cmsis\device\mbed_cmsis_conf.h \
+  mbed-os\cmsis\CMSIS_5\CMSIS\RTOS2\RTX\Config\RTX_Config.h \
   mbed-os\rtos\include\rtos\internal\mbed_rtos_storage.h \
   mbed-os\cmsis\device\rtos\include\mbed_rtx_storage.h \
   mbed-os\cmsis\device\rtos\include\mbed_rtx_conf.h \
-  mbed-os\targets\TARGET_STM\mbed_rtx.h \
   mbed-os\rtos\include\rtos\Kernel.h \
   mbed-os\platform\include\platform\ScopedLock.h \
   mbed-os\platform\include\platform\CircularBuffer.h \
@@ -159,6 +164,7 @@ BUILD\B_L4S5I_IOT01A\ARMC6\mbed-os\connectivity\drivers\wifi\esp8266-driver\ESP8
   mbed-os\platform\include\platform\mbed_atomic.h \
   mbed-os\platform\include\platform\internal\mbed_atomic_impl.h \
   mbed-os\connectivity\netsocket\include\netsocket\nsapi_types.h \
+  mbed-os\platform\include\platform\mbed_toolchain.h \
   mbed-os\connectivity\netsocket\include\netsocket\WiFiAccessPoint.h \
   mbed-os\platform\include\platform\ATCmdParser.h \
   mbed-os\platform\include\platform\mbed_chrono.h \
@@ -167,5 +173,4 @@ BUILD\B_L4S5I_IOT01A\ARMC6\mbed-os\connectivity\drivers\wifi\esp8266-driver\ESP8
   mbed-os\rtos\include\rtos\ThisThread.h \
   mbed-os\connectivity\netsocket\include\netsocket\SocketAddress.h \
   mbed-os\connectivity\netsocket\include\netsocket\nsapi_types.h \
-  mbed-os\platform\include\platform\mbed_toolchain.h \
   mbed-os\platform\mbed-trace\include\mbed-trace\mbed_trace.h
