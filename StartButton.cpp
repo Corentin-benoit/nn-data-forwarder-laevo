@@ -1,5 +1,5 @@
 /**
- * @file TouchSensor.cpp
+ * @file StartButton.cpp
  * @author Corentin BENOIT
  * @brief
  * @version 0.1
@@ -8,9 +8,7 @@
  * @copyright Copyright (c) 2022
  */
 
-#include "TouchSensor.hpp"
-
-
+#include "StartButton.hpp"
 
 
 
@@ -22,11 +20,11 @@ using namespace std;
 ----------------------------------------------------------
 */
 
-TouchSensor::TouchSensor() : m_pin(ARDUINO_UNO_A1){
-    printf("You need to connect the pressure sensor to the IMU's pin A1\n");
+StartButton::StartButton() : m_pin(BUTTON1){
 }
 
-TouchSensor::TouchSensor(PinName pin) : m_pin(pin){}
+StartButton::StartButton(PinName pin) : m_pin(pin){
+}
 
 
 /*
@@ -35,7 +33,9 @@ TouchSensor::TouchSensor(PinName pin) : m_pin(pin){}
 ----------------------------------------------------------
 */
 
-TouchSensor::~TouchSensor(){}
+StartButton::~StartButton()
+{
+}
 
 /*
 ----------------------------------------------------------
@@ -43,11 +43,11 @@ TouchSensor::~TouchSensor(){}
 ----------------------------------------------------------
 */
 
-void TouchSensor::setPin(PinName pin){
+void StartButton::setPin(PinName pin){
     m_pin = pin;
 }
 
-const PinName& TouchSensor::getPin() const{
+const PinName& StartButton::getPin() const{
     return m_pin;
 }
 
@@ -58,17 +58,31 @@ const PinName& TouchSensor::getPin() const{
 ----------------------------------------------------------
 */
 
-void TouchSensor::display() const{
-    AnalogIn touchSensor(m_pin);
-    int value = touchSensor.read()*100.0f;
-    printf("Percentage of pressure : %d\n", value);
+
+void StartButton::displayWait() const
+{
+    DigitalIn startButton(m_pin);
+    cout<<"------------- click on the button to start the program -------------"<<endl;
+    while (detection(startButton) == false) 
+    {
+    }
 }
 
-bool TouchSensor::detection() const 
+bool StartButton::detection(DigitalIn startButton) const 
 {
-    AnalogIn touchSensor(m_pin);
-    int value = touchSensor.read()*100.0f;
-    if(value > TRESHOLD)
+    //Active the PullUp mode of the card for an extern button
+    if(m_pin != BUTTON1)
+    {
+        DigitalIn(startButton).mode(PullUp);
+    }
+
+    //error handling
+    if(DigitalIn(startButton).is_connected() == 0)
+    {
+        cerr<<"No button is connected"<<endl;
+    }
+
+    if(DigitalIn(startButton).read() == 0)
     {
         return true;
     }
@@ -77,15 +91,6 @@ bool TouchSensor::detection() const
         return false;
     }
 }
-
-
-/*
-Idées :
-https://os.mbed.com/questions/6752/AnalogIn-read-function-is-giving-erroneo/
-
-
-*/
-
 
 
 

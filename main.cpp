@@ -10,9 +10,10 @@
 #include "mbed.h"
 #include "../LSM6DSL/LSM6DSL_acc_gyro_driver.h"
 #include "../LSM6DSL/LSM6DSLSensor.h"
-#include <cstdint>
 
 #include "TouchSensor.hpp"
+#include "StartButton.hpp"
+#include "PotentiometerSensor.hpp"
 
 DigitalOut led1(LED1);
 
@@ -118,11 +119,21 @@ void valToGraph(float n, float max, int ch) {
 
 int main(void)
 {
+    
+    ////Initialise the startButton
+    StartButton startButton;
+
     // Initialise the digital pin LED1 as an output
     DigitalOut led(LED1);
 
     //Initialise the touch button on the A1 port
-    TouchSensor sensorButton(A1);
+    TouchSensor sensorButton;
+
+    //Initialise the potentiometer on the A2 port
+    PotentiometerSensor potentiometer;
+
+    startButton.displayWait();
+    
     
     int32_t acc_val_buf[3];
     int32_t gyro_val_buf[3];
@@ -150,14 +161,17 @@ int main(void)
         acc_gyro.get_x_axes(acc_val_buf);
         acc_gyro.get_g_axes(gyro_val_buf);
         //numbers
-        printf("%f\t%f\t%f\t%f\t%f\t%f\t%d\n",
+        printf("%f\t%f\t%f\t%f\t%f\t%f\t%d\t%f\n",
             static_cast<float>(acc_val_buf[0]) / accDiv,            
             static_cast<float>(acc_val_buf[1]) / accDiv,
             static_cast<float>(acc_val_buf[2]) / accDiv,
             static_cast<float>(gyro_val_buf[0] - gyrOffX) / gyrDiv,
             static_cast<float>(gyro_val_buf[1] - gyrOffY) / gyrDiv,
             static_cast<float>(gyro_val_buf[2] - gyrOffZ) / gyrDiv,
-            sensorButton.detection());
+            sensorButton.detection(),
+            potentiometer.displayRaw());
+        
+        wait_us(10000);
 
         while (t.elapsed_time().count() < next_tick){
             // busy loop

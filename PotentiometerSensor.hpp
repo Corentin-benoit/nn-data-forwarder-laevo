@@ -1,5 +1,5 @@
 /**
- * @file TouchSensor.hpp
+ * @file PotentiometerSensor.hpp
  * @author Corentin BENOIT
  * @brief
  * @version 0.1
@@ -9,25 +9,23 @@
  *
  */
 
-#ifndef DEF_TOUCHSENSOR
-#define DEF_TOUCHSENSOR
+#ifndef DEF_POTENTIOMETERSENSOR
+#define DEF_POTENTIOMETERSENSOR
 
 #include <iostream>
 #include "mbed.h"
 
-// Detection level for the touch sensor
-#define TRESHOLD 10 //In percentage
 
 
-class TouchSensor
+class PotentiometerSensor
 {
 public:
     // Constructor
-    TouchSensor();
-    TouchSensor(PinName pin);
+    PotentiometerSensor();
+    PotentiometerSensor(PinName pin);
 
     // Destructor
-    ~TouchSensor();
+    ~PotentiometerSensor();
 
 
     // Assessors
@@ -36,7 +34,7 @@ public:
 
     //Methods
     void display() const;
-    bool detection() const;
+    float displayRaw() const;
 
 
 

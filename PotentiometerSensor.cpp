@@ -1,16 +1,14 @@
 /**
- * @file TouchSensor.cpp
+ * @file PotentiometerSensor.cpp
  * @author Corentin BENOIT
  * @brief
- * @version 0.1
+ * @version 1.0
  * @date 2022-06-24
  *
  * @copyright Copyright (c) 2022
  */
 
-#include "TouchSensor.hpp"
-
-
+#include "PotentiometerSensor.hpp"
 
 
 
@@ -22,11 +20,11 @@ using namespace std;
 ----------------------------------------------------------
 */
 
-TouchSensor::TouchSensor() : m_pin(ARDUINO_UNO_A1){
-    printf("You need to connect the pressure sensor to the IMU's pin A1\n");
+PotentiometerSensor::PotentiometerSensor() : m_pin(ARDUINO_UNO_A2){
+    printf("You need to connect the potentiometer sensor to the IMU's pin A2\n");
 }
 
-TouchSensor::TouchSensor(PinName pin) : m_pin(pin){}
+PotentiometerSensor::PotentiometerSensor(PinName pin) : m_pin(pin){}
 
 
 /*
@@ -35,7 +33,7 @@ TouchSensor::TouchSensor(PinName pin) : m_pin(pin){}
 ----------------------------------------------------------
 */
 
-TouchSensor::~TouchSensor(){}
+PotentiometerSensor::~PotentiometerSensor(){}
 
 /*
 ----------------------------------------------------------
@@ -43,11 +41,11 @@ TouchSensor::~TouchSensor(){}
 ----------------------------------------------------------
 */
 
-void TouchSensor::setPin(PinName pin){
+void PotentiometerSensor::setPin(PinName pin){
     m_pin = pin;
 }
 
-const PinName& TouchSensor::getPin() const{
+const PinName& PotentiometerSensor::getPin() const{
     return m_pin;
 }
 
@@ -58,33 +56,18 @@ const PinName& TouchSensor::getPin() const{
 ----------------------------------------------------------
 */
 
-void TouchSensor::display() const{
-    AnalogIn touchSensor(m_pin);
-    int value = touchSensor.read()*100.0f;
-    printf("Percentage of pressure : %d\n", value);
+void PotentiometerSensor::display() const{
+    AnalogIn pot(m_pin);
+    int value = pot.read()*100.0f;
+    printf("Percentage : %d\n", value);
 }
 
-bool TouchSensor::detection() const 
+float PotentiometerSensor::displayRaw() const
 {
-    AnalogIn touchSensor(m_pin);
-    int value = touchSensor.read()*100.0f;
-    if(value > TRESHOLD)
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
+     AnalogIn pot(m_pin);
+    return pot.read()*100.0f;
 }
 
-
-/*
-Idées :
-https://os.mbed.com/questions/6752/AnalogIn-read-function-is-giving-erroneo/
-
-
-*/
 
 
 
