@@ -32,14 +32,21 @@ public:
     void setPin(PinName pin);
     const PinName& getPin() const;
 
+    void setOffset(float offset);
+    const float getOffset() const;
+
     //Methods
     void display() const;
     float displayRaw() const;
+    float displayRawOffset() const;
+    void initOffset();
+
 
 
 
 protected:
     PinName m_pin;
+    float m_offset_standing;
 
 };
 #endif

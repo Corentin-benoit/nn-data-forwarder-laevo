@@ -63,9 +63,21 @@ void StartButton::displayWait() const
 {
     DigitalIn startButton(m_pin);
     cout<<"------------- click on the button to start the program -------------"<<endl;
-    while (detection(startButton) == false) 
-    {
-    }
+    while (detection(startButton) == false) {}
+}
+
+void StartButton::initDisplayIMU() const
+{
+    DigitalIn startButton(m_pin);
+    cout<<"------------- click on the button when the IMU is stable on the table -------------"<<endl;
+    while (detection(startButton) == false) {}
+}
+
+void StartButton::initDisplayPot() const
+{
+    DigitalIn startButton(m_pin);
+    cout<<"------------- click on the button when the IMU you are standing and stable -------------"<<endl;
+    while (detection(startButton) == false) {}
 }
 
 bool StartButton::detection(DigitalIn startButton) const 

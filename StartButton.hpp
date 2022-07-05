@@ -36,6 +36,8 @@ public:
     //Methods
     //void init() const;
     void displayWait() const;
+    void initDisplayIMU() const;
+    void initDisplayPot() const;
     bool detection(DigitalIn startButton) const;
 
 

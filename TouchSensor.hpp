@@ -16,7 +16,7 @@
 #include "mbed.h"
 
 // Detection level for the touch sensor
-#define TRESHOLD 10 //In percentage
+#define TRESHOLD 5 //In percentage
 
 
 class TouchSensor

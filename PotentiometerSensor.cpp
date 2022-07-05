@@ -49,6 +49,14 @@ const PinName& PotentiometerSensor::getPin() const{
     return m_pin;
 }
 
+void PotentiometerSensor::setOffset(float offset){
+    m_offset_standing = offset;
+}
+
+const float PotentiometerSensor::getOffset() const{
+    return m_offset_standing;
+}
+
 
 /*
 ----------------------------------------------------------
@@ -58,15 +66,22 @@ const PinName& PotentiometerSensor::getPin() const{
 
 void PotentiometerSensor::display() const{
     AnalogIn pot(m_pin);
-    int value = pot.read()*100.0f;
-    printf("Percentage : %d\n", value);
+    float value = pot.read()*100.0f;
+    printf("Percentage : %f\n", value);
 }
 
 float PotentiometerSensor::displayRaw() const
 {
-     AnalogIn pot(m_pin);
+    AnalogIn pot(m_pin);
     return pot.read()*100.0f;
 }
+
+float PotentiometerSensor::displayRawOffset() const
+{
+    AnalogIn pot(m_pin);
+    return (pot.read()*100.0f - m_offset_standing);
+}
+
 
 
 
