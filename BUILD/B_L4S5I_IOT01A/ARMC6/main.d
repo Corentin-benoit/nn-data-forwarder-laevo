@@ -336,5 +336,6 @@ BUILD\B_L4S5I_IOT01A\ARMC6\main.o: main.cpp \
   mbed-os\hal\include\hal\pinmap.h LSM6DSL\LSM6DSL_acc_gyro_driver.h \
   LIS3MDL\ST_INTERFACES\Sensors\MotionSensor.h \
   LIS3MDL\ST_INTERFACES\Common\Component.h \
-  LIS3MDL\ST_INTERFACES\Sensors\GyroSensor.h TouchSensor.hpp \
+  LIS3MDL\ST_INTERFACES\Sensors\GyroSensor.h \
+  LSM6DSL\ST_INTERFACES\Sensors\PressureSensor.h TouchSensor.hpp \
   StartButton.hpp PotentiometerSensor.hpp

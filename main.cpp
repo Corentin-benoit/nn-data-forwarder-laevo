@@ -10,6 +10,7 @@
 #include "mbed.h"
 #include "../LSM6DSL/LSM6DSL_acc_gyro_driver.h"
 #include "../LSM6DSL/LSM6DSLSensor.h"
+#include "LSM6DSL/ST_INTERFACES/Sensors/PressureSensor.h"
 
 #include "TouchSensor.hpp"
 #include "StartButton.hpp"
@@ -29,13 +30,13 @@ DigitalOut led1(LED1);
 //Initialise the touch button on the A1 port
 TouchSensor sensorButton(A5);
 
-//Initialise the potentiometer on the A2 port
+//Initialise the potentiometers 
 PotentiometerSensor potentiometer_right(A1);
 PotentiometerSensor potentiometer_left(A3);
 
 // Set the sampling frequency in Hz
-static int16_t sampling_freq = 57;
-static int64_t time_between_samples_us = (1000000 / (sampling_freq - 1));
+static int16_t sampling_freq = 100;
+static int64_t time_between_samples_us = (1000000 / (sampling_freq));
 
 // Measurements
 float gyrOffX = 0; float gyrOffY = 0; float gyrOffZ = 0;
@@ -48,6 +49,9 @@ float gyrOffX = 0; float gyrOffY = 0; float gyrOffZ = 0;
 static DevI2C devI2C(PB_11, PB_10);
 
 static LSM6DSLSensor acc_gyro(&devI2C, LSM6DSL_ACC_GYRO_I2C_ADDRESS_LOW, PD_11);
+
+////Initialise pressureSensor
+
 
 /*
 ----------------------------------------------------------
