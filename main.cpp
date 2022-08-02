@@ -50,7 +50,7 @@ static DevI2C devI2C(PB_11, PB_10);
 
 static LSM6DSLSensor acc_gyro(&devI2C, LSM6DSL_ACC_GYRO_I2C_ADDRESS_LOW, PD_11);
 
-////Initialise pressureSensor
+//Initialise pressureSensor
 
 
 /*
@@ -130,28 +130,25 @@ void calibrate_sensors(float accDiv, float gyrDiv, int N) {
 void initCalibration(float accDiv, float gyrDiv, int N)
 {
     //user warning
-    wait_us(10000);
     startButton.initDisplayIMU();
-    wait_us(1500000);
     startButton.initDisplayPot();
-    wait_us(10000);
 
     /* Calibration countdown */
     led1 = 1;
     printf("\nCalibration starting in 5 seconds, please keep the IMU horizontal and fully still.\n");
-    ThisThread::sleep_for(1s);
+    wait_us(10e6);
     led1 = 0;
     printf("Calibration starting in 4 seconds.\n");
-    ThisThread::sleep_for(1s);
+    wait_us(10e6);
     led1 = 1;
     printf("Calibration starting in 3 seconds.\n");
-    ThisThread::sleep_for(1s);
+    wait_us(10e6);
     led1 = 0;
     printf("Calibration starting in 2 seconds.\n");
-    ThisThread::sleep_for(1s);
+    wait_us(10e6);
     led1 = 1;
     printf("Calibration starting in 1 seconds.\n");
-    ThisThread::sleep_for(1s);
+    wait_us(10e6);
     led1 = 0;
     printf("Calibration Started. This will take approximately %d seconds.\n", N/sampling_freq);
 
@@ -205,8 +202,6 @@ int main(void)
             sensorButton.detection(),
             potentiometer_right.displayRawOffset(),
             potentiometer_left.displayRawOffset());
-        
-        wait_us(10000);
 
         while (t.elapsed_time().count() < next_tick){
             // busy loop
