@@ -39,7 +39,7 @@ StartButton startButton;
 // Initialise the digital pin LED1 as an output
 DigitalOut led1(LED1);
 
-//Initialise the touch button on the A1 port
+//Initialise the touch button on the A0 port
 TouchSensor sensorButton(A0);
 
 //Initialise the potentiometers 
@@ -87,6 +87,9 @@ int main(void)
 
     int32_t acc_val_buf[3];
     int32_t gyro_val_buf[3];
+    float acc_val_buf_f[3];
+    float gyro_val_buf_f[3];
+    
     // init initializes the component
     acc_gyro.init(NULL);
     // enables the accelero
@@ -96,7 +99,7 @@ int main(void)
 
 
     // enable gyro
-    float sensibility_gyro = 500.0f;
+    float sensibility_gyro = 250.0f;
     acc_gyro.enable_g();
     acc_gyro.set_g_fs(sensibility_gyro);
 
@@ -118,18 +121,18 @@ int main(void)
 
         for(int i = 0; i <3; i++)
         {
-            acc_val_buf[i] = map(acc_val_buf[i], -sensibility_acc*g0*100.0f, sensibility_acc*g0*100.0f, -acc_ratio, acc_ratio);
-            gyro_val_buf[i] = map(gyro_val_buf[i] - gyr_offset[i], -sensibility_gyro*1000.0f, sensibility_gyro*1000.0f, -gyr_ratio, gyr_ratio);
+            acc_val_buf_f[i] = map(acc_val_buf[i], -sensibility_acc*g0*100.0f, sensibility_acc*g0*100.0f, -acc_ratio, acc_ratio);
+            gyro_val_buf_f[i] = map(gyro_val_buf[i] - gyr_offset[i], -sensibility_gyro*1000.0f, sensibility_gyro*1000.0f, -gyr_ratio, gyr_ratio);
         }
 
         //numbers
         printf("%f\t%f\t%f\t%f\t%f\t%f\t%d\t%f\t%f\n",
-            static_cast<float>(acc_val_buf[0]),            
-            static_cast<float>(acc_val_buf[1]),
-            static_cast<float>(acc_val_buf[2]),
-            static_cast<float>(gyro_val_buf[0]),
-            static_cast<float>(gyro_val_buf[1]),
-            static_cast<float>(gyro_val_buf[2]),
+            static_cast<float>(acc_val_buf_f[0]),            
+            static_cast<float>(acc_val_buf_f[1]),
+            static_cast<float>(acc_val_buf_f[2]),
+            static_cast<float>(gyro_val_buf_f[0]),
+            static_cast<float>(gyro_val_buf_f[1]),
+            static_cast<float>(gyro_val_buf_f[2]),
             sensorButton.detection(),
             potentiometer_right.getRawDataOffsetPercentage_u16(),
             potentiometer_left.getRawDataOffsetPercentage_u16());
