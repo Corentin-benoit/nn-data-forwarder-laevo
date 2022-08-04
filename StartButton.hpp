@@ -2,8 +2,8 @@
  * @file StartButton.hpp
  * @author Corentin BENOIT
  * @brief
- * @version 0.1
- * @date 2022-06-28
+ * @version 1.1
+ * @date 2022-08-04
  *
  * @copyright Copyright (c) 2022
  *

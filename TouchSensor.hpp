@@ -2,8 +2,8 @@
  * @file TouchSensor.hpp
  * @author Corentin BENOIT
  * @brief
- * @version 0.1
- * @date 2022-06-24
+ * @version 1.1
+ * @date 2022-08-04
  *
  * @copyright Copyright (c) 2022
  *
@@ -16,7 +16,7 @@
 #include "mbed.h"
 
 // Detection level for the touch sensor
-#define TRESHOLD 20 //In percentage
+#define TRESHOLD 15 //In percentage
 
 
 class TouchSensor
@@ -36,7 +36,7 @@ public:
 
     //Methods
     void display() const;
-    bool detection() const;
+    int detection() const;
 
 
 

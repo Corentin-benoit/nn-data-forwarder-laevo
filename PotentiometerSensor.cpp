@@ -2,8 +2,8 @@
  * @file PotentiometerSensor.cpp
  * @author Corentin BENOIT
  * @brief
- * @version 1.0
- * @date 2022-06-24
+ * @version 1.1
+ * @date 2022-08-04
  *
  * @copyright Copyright (c) 2022
  */
@@ -85,48 +85,89 @@ const char& PotentiometerSensor::getColor() const{
 ----------------------------METHODS-----------------------
 ----------------------------------------------------------
 */
+
+/**
+ * @brief Retrieves the raw data of the potentiometer in percent [0; 100]%.
+ * 
+ * @return float 
+ */
 float PotentiometerSensor::getRawDataPercentage() const
 {
     AnalogIn pot(m_pin);
     return pot.read()*100.0f;
 }
 
+/**
+ * @brief Gets the raw data from [0; 1] float
+ * 
+ * @return float 
+ */
 float PotentiometerSensor::getRawData0to1() const
 {
     AnalogIn pot(m_pin);
     return pot.read();
 }
 
+/**
+ * @brief Retrieves the raw data, from [0; UINT16_MAX] uint16_t
+ * 
+ * @return uint16_t 
+ */
 uint16_t PotentiometerSensor::getRawData_u16() const
 {
     AnalogIn pot(m_pin);
     return pot.read_u16();
 }
 
+/**
+ * @brief Gets the raw data, from [0; UINT16_MAX] uint16_t and converts it to a percentage of [100; 0]% (assuming you want the positive increment direction of the potentiometer to be reversed
+ * 
+ * @return float 
+ */
 float PotentiometerSensor::getRawDataOffsetPercentage_u16() const
 {
     AnalogIn pot(m_pin);
     return map(pot.read_u16(), 0.0f, m_offset_standing, 100.0f, 0.0f);
 }
 
+/**
+ * @brief Gets the raw data from [0; 1] float after offset
+ * You need to be the offsert with method read()
+ * 
+ * @return float 
+ */
 float PotentiometerSensor::getRawDataOffset0to1() const
 {
     AnalogIn pot(m_pin);
     return (pot.read() - m_offset_standing);
 }
 
+/**
+ * @brief Gets the raw data from [0; UINT16_MAX] uint16_t after offset
+ * You need to be the offsert with method read_u16()
+ * @return uint16_t 
+ */
 uint16_t PotentiometerSensor::getRawDataOffset_u16() const
 {
     AnalogIn pot(m_pin);
     return (pot.read_u16() - m_offset_standing);
 }
 
+/**
+ * @brief To display information to the user
+ * 
+ */
 void PotentiometerSensor::displayPercentage() const{
     AnalogIn pot(m_pin);
     float value = pot.read()*100.0f;
     printf("Percentage : %f\n", value);
 }
 
+/**
+ * @brief Gives the position of the wiper on the potentiometer in [cm]
+ * 
+ * @return float 
+ */
 float PotentiometerSensor::calculateDistance() const
 {
     float position_soft_pot_offset = 0;
@@ -151,6 +192,11 @@ float PotentiometerSensor::calculateDistance() const
     return position_soft_pot_offset;
 }
 
+/**
+ * @brief Gives the position of the wiper on the potentiometer in [degree]
+ * 
+ * @return float 
+ */
 float PotentiometerSensor::calculateAngle() const
 {
     float position_soft_pot_offset = 0;
@@ -174,7 +220,11 @@ float PotentiometerSensor::calculateAngle() const
     return position_soft_pot_offset;
 }
 
-
+/**
+ * @brief To display linear position of the wiper at the user
+ * 
+ * @param result_position 
+ */
 void PotentiometerSensor::displayDistance(float result_position) const
 {
     if(m_id == 0)
@@ -184,6 +234,11 @@ void PotentiometerSensor::displayDistance(float result_position) const
     wait_us(5E+4);
 }
 
+/**
+ * @brief To display angulzr position of the wiper at the user
+ * 
+ * @param result_position 
+ */
 void PotentiometerSensor::displayAngle(float result_position) const
 {
     if(m_id == 0)
@@ -194,7 +249,14 @@ void PotentiometerSensor::displayAngle(float result_position) const
 }
 
 
-
+/**
+ * @brief Determines the torque exerted by a rod of the exoskeleton
+ * There are two types of polynomial approximation for the four colours present
+ * 
+ * @param angle 
+ * @param sens 
+ * @return float 
+ */
 float PotentiometerSensor::calculateTorque(float angle, char& sens) const 
 {
     // Link for the polynomial solver
@@ -420,6 +482,12 @@ float PotentiometerSensor::calculateTorque(float angle, char& sens) const
 
 
 //NEED TO BE IMPROVE WITH THE IMU
+/**
+ * @brief Determine on which curves to calculate the torque of one of the rods of the exo as a function of the displacement of the wiper at time t-1 and at time t
+ * 
+ * @param force_direction 
+ * @param last_angle 
+ */
 void PotentiometerSensor::forceDirection(char& force_direction, uint16_t last_angle) const
 {    
     int dead_zone = 200;
@@ -443,12 +511,21 @@ void PotentiometerSensor::forceDirection(char& force_direction, uint16_t last_an
 
 }
 
+/**
+ * @brief Torque information for user
+ * 
+ * @param torque 
+ */
 void PotentiometerSensor::displayTorque(float torque) const
 {
     cout << "Global torque > [" + to_string(torque) + "] Nm "; // We have the distance 
     wait_us(5E+4);
 }
 
+/**
+ * @brief determines the colour on the exoskeleton according to the user input
+ * 
+ */
 void PotentiometerSensor::chooseColor()
 {
    char color = ' ';
@@ -489,21 +566,40 @@ void PotentiometerSensor::chooseColor()
     m_color = color;
 }
 
-/* 
-Map the raw data after average,
+/**
+ * @brief Map the raw data after average,
 a Voltage limitation can occur due to the +-20% tolerance of the potentiometers.
 then we invert the values sens because of the angle increase when the distance increase and not vice-versa
-
-*/
+ * 
+ * @param input 
+ * @return float 
+ */
 float PotentiometerSensor::mapData(float input) const
 {
     return map(input, 0, UINT16_MAX - VOLTAGE_LIMITATION, ACTIVE_LENGTH, 0);
 }
 
+/**
+ * @brief For mapping value
+ * 
+ * @param x 
+ * @param in_min 
+ * @param in_max 
+ * @param out_min 
+ * @param out_max 
+ * @return double 
+ */
 double map(double x, double in_min, double in_max, double out_min, double out_max) {
     return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
 }
 
+/**
+ * @brief Average torque 
+ * 
+ * @param torque_right 
+ * @param torque_left 
+ * @return float 
+ */
 float calculateGlobalTorque(float torque_right, float torque_left)
 {
     return ((torque_left+torque_right)/2);

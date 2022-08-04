@@ -2,8 +2,8 @@
  * @file TouchSensor.cpp
  * @author Corentin BENOIT
  * @brief
- * @version 0.1
- * @date 2022-06-24
+ * @version 1.1
+ * @date 2022-08-04
  *
  * @copyright Copyright (c) 2022
  */
@@ -58,33 +58,36 @@ const PinName& TouchSensor::getPin() const{
 ----------------------------------------------------------
 */
 
+/**
+ * @brief For display the pressure percentage on the pressure sensor
+ * 
+ */
 void TouchSensor::display() const{
     AnalogIn touchSensor(m_pin);
     int value = touchSensor.read()*100.0f;
     printf("Percentage of pressure : %d\n", value);
 }
 
-bool TouchSensor::detection() const 
+/**
+ * @brief Finds a Boolean value (0 or 100) the scale is essential. It allows you to give importance to the data when it is sent to EdgeImpulse
+ * 
+ * @return int 
+ */
+
+int TouchSensor::detection() const 
 {
     AnalogIn touchSensor(m_pin);
     int value = touchSensor.read()*100.0f;
     if(value > TRESHOLD)
     {
-        return true;
+        return 100;
     }
     else
     {
-        return false;
+        return 0;
     }
 }
 
-
-/*
-Idées :
-https://os.mbed.com/questions/6752/AnalogIn-read-function-is-giving-erroneo/
-
-
-*/
 
 
 

@@ -2,8 +2,8 @@
  * @file StartButton.cpp
  * @author Corentin BENOIT
  * @brief
- * @version 0.1
- * @date 2022-06-24
+ * @version 1.1
+ * @date 2022-08-04
  *
  * @copyright Copyright (c) 2022
  */
@@ -58,31 +58,50 @@ const PinName& StartButton::getPin() const{
 ----------------------------------------------------------
 */
 
+/**
+ * @brief Information for the user
+ * 
+ */
 
 void StartButton::displayWait() const
 {
     DigitalIn startButton(m_pin);
-    cout<<"------------- click on the button to start the program -------------"<<endl;
+    cout<<"---------------------- click on the button to start the program -------------------"<<endl;
     while (detection(startButton) == false) {}
     ThisThread::sleep_for(500ms);
 }
 
+/**
+ * @brief Information for the user
+ * 
+ */
 void StartButton::initDisplayIMU() const
 {
     DigitalIn startButton(m_pin);
-    cout<<"------------- click on the button when the IMU is stable on the table -------------"<<endl;
+    cout<<"--------------------- click on the button when the IMU is stable ------------------"<<endl;
     while (detection(startButton) == false) {}
     ThisThread::sleep_for(500ms);
 }
 
+/**
+ * @brief Information for the user
+ * 
+ */
 void StartButton::initDisplayPot() const
 {
     DigitalIn startButton(m_pin);
-    cout<<"------------- click on the button when the IMU you are standing and stable -------------"<<endl;
+    cout<<"--------------- click on the button when you are standing and stable --------------"<<endl;
     while (detection(startButton) == false) {}
     ThisThread::sleep_for(500ms);
 }
 
+/**
+ * @brief Detects when the user clicks on the button (on the card or external button)
+ * 
+ * @param startButton 
+ * @return true 
+ * @return false 
+ */
 bool StartButton::detection(DigitalIn startButton) const 
 {
     //Active the PullUp mode of the card for an extern button
