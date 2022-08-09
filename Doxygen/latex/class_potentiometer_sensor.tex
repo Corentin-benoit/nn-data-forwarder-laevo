@@ -1,0 +1,445 @@
+\hypertarget{class_potentiometer_sensor}{}\doxysection{Potentiometer\+Sensor Class Reference}
+\label{class_potentiometer_sensor}\index{PotentiometerSensor@{PotentiometerSensor}}
+
+
+{\ttfamily \#include $<$Potentiometer\+Sensor.\+hpp$>$}
+
+
+
+Collaboration diagram for Potentiometer\+Sensor\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{class_potentiometer_sensor__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_potentiometer_sensor_af5eac8fba929a94c5542bba15e6bc85b}{Potentiometer\+Sensor}} ()
+\item 
+\mbox{\hyperlink{class_potentiometer_sensor_a590436df042ef2a6250f4137b7197d01}{Potentiometer\+Sensor}} (Pin\+Name pin, short int id)
+\item 
+\mbox{\hyperlink{class_potentiometer_sensor_a30f5403ec31abfbc435a5fa5a70adf66}{$\sim$\+Potentiometer\+Sensor}} ()
+\item 
+void \mbox{\hyperlink{class_potentiometer_sensor_aaa1963dec3fe8d66118f303d004dc715}{set\+Pin}} (Pin\+Name pin)
+\item 
+const Pin\+Name \& \mbox{\hyperlink{class_potentiometer_sensor_a32cba3e879913368c6a8f18dde7f8615}{get\+Pin}} () const
+\item 
+void \mbox{\hyperlink{class_potentiometer_sensor_af1ab0ba9efc1ea49099aa18066abc02c}{set\+Id}} (short int id)
+\item 
+const short int \& \mbox{\hyperlink{class_potentiometer_sensor_a23c45183f44cd33d13af17603db0b446}{get\+Id}} () const
+\item 
+void \mbox{\hyperlink{class_potentiometer_sensor_aa233763ec8665fb41269956b8a83631a}{set\+Offset}} (float offset)
+\item 
+const float \& \mbox{\hyperlink{class_potentiometer_sensor_acdfdfe32e0a5922ec200fbb260a814db}{get\+Offset}} () const
+\item 
+void \mbox{\hyperlink{class_potentiometer_sensor_ae902aa4db978a69a3e0e977cb1867999}{set\+Color}} (char color)
+\item 
+const char \& \mbox{\hyperlink{class_potentiometer_sensor_a41eeda154a0504a26d36c2de15d369f2}{get\+Color}} () const
+\item 
+float \mbox{\hyperlink{class_potentiometer_sensor_a3d8eed89ff4d44b85ad6f12ddc67bd09}{get\+Raw\+Data\+Percentage}} () const
+\begin{DoxyCompactList}\small\item\em Retrieves the raw data of the potentiometer in percent \mbox{[}0; 100\mbox{]}\%. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_potentiometer_sensor_a2d7c66b4fe3fc45a9236251e93e76024}{get\+Raw\+Data0to1}} () const
+\begin{DoxyCompactList}\small\item\em Gets the raw data from \mbox{[}0; 1\mbox{]} float. \end{DoxyCompactList}\item 
+uint16\+\_\+t \mbox{\hyperlink{class_potentiometer_sensor_a9ebe3deebc9e8c9a1748cb480aef1975}{get\+Raw\+Data\+\_\+u16}} () const
+\begin{DoxyCompactList}\small\item\em Retrieves the raw data, from \mbox{[}0; U\+I\+N\+T16\+\_\+\+M\+AX\mbox{]} uint16\+\_\+t. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_potentiometer_sensor_aada1d98540f5939c9373677041087616}{get\+Raw\+Data\+Offset\+Percentage\+\_\+u16}} () const
+\begin{DoxyCompactList}\small\item\em Gets the raw data, from \mbox{[}0; U\+I\+N\+T16\+\_\+\+M\+AX\mbox{]} uint16\+\_\+t and converts it to a percentage of \mbox{[}100; 0\mbox{]}\% (assuming you want the positive increment direction of the potentiometer to be reversed. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_potentiometer_sensor_a27fcdf2bd75241f54a47735f3f7c6b89}{get\+Raw\+Data\+Offset0to1}} () const
+\begin{DoxyCompactList}\small\item\em Gets the raw data from \mbox{[}0; 1\mbox{]} float after offset You need to be the offsert with method read() \end{DoxyCompactList}\item 
+uint16\+\_\+t \mbox{\hyperlink{class_potentiometer_sensor_a684f7ee149be0366e5f6e71cdc83de2d}{get\+Raw\+Data\+Offset\+\_\+u16}} () const
+\begin{DoxyCompactList}\small\item\em Gets the raw data from \mbox{[}0; U\+I\+N\+T16\+\_\+\+M\+AX\mbox{]} uint16\+\_\+t after offset You need to be the offsert with method read\+\_\+u16() \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_potentiometer_sensor_a94ff2d5698cff277ff8e8de1979c5359}{display\+Percentage}} () const
+\begin{DoxyCompactList}\small\item\em To display information to the user. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_potentiometer_sensor_a8f41bf3579bb7eab3659d8f4e43c0636}{display\+Distance}} (float position\+\_\+soft\+\_\+pot\+\_\+offset) const
+\begin{DoxyCompactList}\small\item\em To display linear position of the wiper at the user. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_potentiometer_sensor_a07c34601e50c9072d8dbe7abfc0973c1}{display\+Angle}} (float position\+\_\+soft\+\_\+pot\+\_\+offset) const
+\begin{DoxyCompactList}\small\item\em To display angulzr position of the wiper at the user. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_potentiometer_sensor_a466aa12de4a96c1dc749f8f9fd9f9a59}{display\+Torque}} (float torque) const
+\begin{DoxyCompactList}\small\item\em Torque information for user. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_potentiometer_sensor_aef093254a24335db40a54619e90bd376}{calculate\+Angle}} () const
+\begin{DoxyCompactList}\small\item\em Gives the position of the wiper on the potentiometer in \mbox{[}degree\mbox{]}. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_potentiometer_sensor_a4a43abe3f19493199a1a32b6ccb8f535}{calculate\+Distance}} () const
+\begin{DoxyCompactList}\small\item\em Gives the position of the wiper on the potentiometer in \mbox{[}cm\mbox{]}. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_potentiometer_sensor_a46c768c7e1b7bedd6ad7a2ddaa5dd1c4}{calculate\+Torque}} (float angle, char \&sens) const
+\begin{DoxyCompactList}\small\item\em Determines the torque exerted by a rod of the exoskeleton There are two types of polynomial approximation for the four colours present. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_potentiometer_sensor_af18e8818c2a21ad006db22bdc2587ed5}{force\+Direction}} (char \&force\+\_\+direction, uint16\+\_\+t last\+\_\+angle) const
+\begin{DoxyCompactList}\small\item\em Determine on which curves to calculate the torque of one of the rods of the exo as a function of the displacement of the wiper at time t-\/1 and at time t. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_potentiometer_sensor_ac1f213e838be14cd5287ab7a2abefb21}{choose\+Color}} ()
+\begin{DoxyCompactList}\small\item\em determines the colour on the exoskeleton according to the user input \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_potentiometer_sensor_a5d204ff18fbe4e4d9a32e9cc28886d34}{map\+Data}} (float input) const
+\begin{DoxyCompactList}\small\item\em Map the raw data after average, a Voltage limitation can occur due to the +-\/20\% tolerance of the potentiometers. then we invert the values sens because of the angle increase when the distance increase and not vice-\/versa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Pin\+Name \mbox{\hyperlink{class_potentiometer_sensor_aec22dbbf6020ae0faaa15e1a7987598c}{m\+\_\+pin}}
+\item 
+float \mbox{\hyperlink{class_potentiometer_sensor_a9972fbcc3f0802c51efac1ec5b0099c3}{m\+\_\+offset\+\_\+standing}}
+\item 
+char \mbox{\hyperlink{class_potentiometer_sensor_a4de293b294459611024d30054259ab33}{m\+\_\+color}} = \textquotesingle{}b\textquotesingle{}
+\item 
+short int \mbox{\hyperlink{class_potentiometer_sensor_ac7e63e85fe9d74a166af9af92278a166}{m\+\_\+id}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_potentiometer_sensor_af5eac8fba929a94c5542bba15e6bc85b}\label{class_potentiometer_sensor_af5eac8fba929a94c5542bba15e6bc85b}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!PotentiometerSensor@{PotentiometerSensor}}
+\index{PotentiometerSensor@{PotentiometerSensor}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{PotentiometerSensor()}{PotentiometerSensor()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Potentiometer\+Sensor\+::\+Potentiometer\+Sensor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_potentiometer_sensor_a590436df042ef2a6250f4137b7197d01}\label{class_potentiometer_sensor_a590436df042ef2a6250f4137b7197d01}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!PotentiometerSensor@{PotentiometerSensor}}
+\index{PotentiometerSensor@{PotentiometerSensor}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{PotentiometerSensor()}{PotentiometerSensor()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Potentiometer\+Sensor\+::\+Potentiometer\+Sensor (\begin{DoxyParamCaption}\item[{Pin\+Name}]{pin,  }\item[{short int}]{id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_potentiometer_sensor_a30f5403ec31abfbc435a5fa5a70adf66}\label{class_potentiometer_sensor_a30f5403ec31abfbc435a5fa5a70adf66}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!````~PotentiometerSensor@{$\sim$PotentiometerSensor}}
+\index{````~PotentiometerSensor@{$\sim$PotentiometerSensor}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{$\sim$PotentiometerSensor()}{~PotentiometerSensor()}}
+{\footnotesize\ttfamily Potentiometer\+Sensor\+::$\sim$\+Potentiometer\+Sensor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_potentiometer_sensor_aef093254a24335db40a54619e90bd376}\label{class_potentiometer_sensor_aef093254a24335db40a54619e90bd376}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!calculateAngle@{calculateAngle}}
+\index{calculateAngle@{calculateAngle}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{calculateAngle()}{calculateAngle()}}
+{\footnotesize\ttfamily float Potentiometer\+Sensor\+::calculate\+Angle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gives the position of the wiper on the potentiometer in \mbox{[}degree\mbox{]}. 
+
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=273pt]{class_potentiometer_sensor_aef093254a24335db40a54619e90bd376_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_potentiometer_sensor_a4a43abe3f19493199a1a32b6ccb8f535}\label{class_potentiometer_sensor_a4a43abe3f19493199a1a32b6ccb8f535}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!calculateDistance@{calculateDistance}}
+\index{calculateDistance@{calculateDistance}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{calculateDistance()}{calculateDistance()}}
+{\footnotesize\ttfamily float Potentiometer\+Sensor\+::calculate\+Distance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gives the position of the wiper on the potentiometer in \mbox{[}cm\mbox{]}. 
+
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=273pt]{class_potentiometer_sensor_a4a43abe3f19493199a1a32b6ccb8f535_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_potentiometer_sensor_a46c768c7e1b7bedd6ad7a2ddaa5dd1c4}\label{class_potentiometer_sensor_a46c768c7e1b7bedd6ad7a2ddaa5dd1c4}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!calculateTorque@{calculateTorque}}
+\index{calculateTorque@{calculateTorque}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{calculateTorque()}{calculateTorque()}}
+{\footnotesize\ttfamily float Potentiometer\+Sensor\+::calculate\+Torque (\begin{DoxyParamCaption}\item[{float}]{angle,  }\item[{char \&}]{sens }\end{DoxyParamCaption}) const}
+
+
+
+Determines the torque exerted by a rod of the exoskeleton There are two types of polynomial approximation for the four colours present. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em angle} & \\
+\hline
+{\em sens} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_potentiometer_sensor_ac1f213e838be14cd5287ab7a2abefb21}\label{class_potentiometer_sensor_ac1f213e838be14cd5287ab7a2abefb21}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!chooseColor@{chooseColor}}
+\index{chooseColor@{chooseColor}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{chooseColor()}{chooseColor()}}
+{\footnotesize\ttfamily void Potentiometer\+Sensor\+::choose\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+determines the colour on the exoskeleton according to the user input 
+
+\mbox{\Hypertarget{class_potentiometer_sensor_a07c34601e50c9072d8dbe7abfc0973c1}\label{class_potentiometer_sensor_a07c34601e50c9072d8dbe7abfc0973c1}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!displayAngle@{displayAngle}}
+\index{displayAngle@{displayAngle}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{displayAngle()}{displayAngle()}}
+{\footnotesize\ttfamily void Potentiometer\+Sensor\+::display\+Angle (\begin{DoxyParamCaption}\item[{float}]{result\+\_\+position }\end{DoxyParamCaption}) const}
+
+
+
+To display angulzr position of the wiper at the user. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em result\+\_\+position} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_potentiometer_sensor_a8f41bf3579bb7eab3659d8f4e43c0636}\label{class_potentiometer_sensor_a8f41bf3579bb7eab3659d8f4e43c0636}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!displayDistance@{displayDistance}}
+\index{displayDistance@{displayDistance}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{displayDistance()}{displayDistance()}}
+{\footnotesize\ttfamily void Potentiometer\+Sensor\+::display\+Distance (\begin{DoxyParamCaption}\item[{float}]{result\+\_\+position }\end{DoxyParamCaption}) const}
+
+
+
+To display linear position of the wiper at the user. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em result\+\_\+position} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_potentiometer_sensor_a94ff2d5698cff277ff8e8de1979c5359}\label{class_potentiometer_sensor_a94ff2d5698cff277ff8e8de1979c5359}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!displayPercentage@{displayPercentage}}
+\index{displayPercentage@{displayPercentage}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{displayPercentage()}{displayPercentage()}}
+{\footnotesize\ttfamily void Potentiometer\+Sensor\+::display\+Percentage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+To display information to the user. 
+
+\mbox{\Hypertarget{class_potentiometer_sensor_a466aa12de4a96c1dc749f8f9fd9f9a59}\label{class_potentiometer_sensor_a466aa12de4a96c1dc749f8f9fd9f9a59}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!displayTorque@{displayTorque}}
+\index{displayTorque@{displayTorque}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{displayTorque()}{displayTorque()}}
+{\footnotesize\ttfamily void Potentiometer\+Sensor\+::display\+Torque (\begin{DoxyParamCaption}\item[{float}]{torque }\end{DoxyParamCaption}) const}
+
+
+
+Torque information for user. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em torque} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_potentiometer_sensor_af18e8818c2a21ad006db22bdc2587ed5}\label{class_potentiometer_sensor_af18e8818c2a21ad006db22bdc2587ed5}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!forceDirection@{forceDirection}}
+\index{forceDirection@{forceDirection}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{forceDirection()}{forceDirection()}}
+{\footnotesize\ttfamily void Potentiometer\+Sensor\+::force\+Direction (\begin{DoxyParamCaption}\item[{char \&}]{force\+\_\+direction,  }\item[{uint16\+\_\+t}]{last\+\_\+angle }\end{DoxyParamCaption}) const}
+
+
+
+Determine on which curves to calculate the torque of one of the rods of the exo as a function of the displacement of the wiper at time t-\/1 and at time t. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em force\+\_\+direction} & \\
+\hline
+{\em last\+\_\+angle} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_potentiometer_sensor_a41eeda154a0504a26d36c2de15d369f2}\label{class_potentiometer_sensor_a41eeda154a0504a26d36c2de15d369f2}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!getColor@{getColor}}
+\index{getColor@{getColor}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{getColor()}{getColor()}}
+{\footnotesize\ttfamily const char \& Potentiometer\+Sensor\+::get\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_potentiometer_sensor_a23c45183f44cd33d13af17603db0b446}\label{class_potentiometer_sensor_a23c45183f44cd33d13af17603db0b446}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!getId@{getId}}
+\index{getId@{getId}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily const short int \& Potentiometer\+Sensor\+::get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_potentiometer_sensor_acdfdfe32e0a5922ec200fbb260a814db}\label{class_potentiometer_sensor_acdfdfe32e0a5922ec200fbb260a814db}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!getOffset@{getOffset}}
+\index{getOffset@{getOffset}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{getOffset()}{getOffset()}}
+{\footnotesize\ttfamily const float \& Potentiometer\+Sensor\+::get\+Offset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_potentiometer_sensor_a32cba3e879913368c6a8f18dde7f8615}\label{class_potentiometer_sensor_a32cba3e879913368c6a8f18dde7f8615}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!getPin@{getPin}}
+\index{getPin@{getPin}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{getPin()}{getPin()}}
+{\footnotesize\ttfamily const Pin\+Name \& Potentiometer\+Sensor\+::get\+Pin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_potentiometer_sensor_a2d7c66b4fe3fc45a9236251e93e76024}\label{class_potentiometer_sensor_a2d7c66b4fe3fc45a9236251e93e76024}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!getRawData0to1@{getRawData0to1}}
+\index{getRawData0to1@{getRawData0to1}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{getRawData0to1()}{getRawData0to1()}}
+{\footnotesize\ttfamily float Potentiometer\+Sensor\+::get\+Raw\+Data0to1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the raw data from \mbox{[}0; 1\mbox{]} float. 
+
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_potentiometer_sensor_a9ebe3deebc9e8c9a1748cb480aef1975}\label{class_potentiometer_sensor_a9ebe3deebc9e8c9a1748cb480aef1975}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!getRawData\_u16@{getRawData\_u16}}
+\index{getRawData\_u16@{getRawData\_u16}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{getRawData\_u16()}{getRawData\_u16()}}
+{\footnotesize\ttfamily uint16\+\_\+t Potentiometer\+Sensor\+::get\+Raw\+Data\+\_\+u16 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Retrieves the raw data, from \mbox{[}0; U\+I\+N\+T16\+\_\+\+M\+AX\mbox{]} uint16\+\_\+t. 
+
+\begin{DoxyReturn}{Returns}
+uint16\+\_\+t 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_potentiometer_sensor_a27fcdf2bd75241f54a47735f3f7c6b89}\label{class_potentiometer_sensor_a27fcdf2bd75241f54a47735f3f7c6b89}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!getRawDataOffset0to1@{getRawDataOffset0to1}}
+\index{getRawDataOffset0to1@{getRawDataOffset0to1}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{getRawDataOffset0to1()}{getRawDataOffset0to1()}}
+{\footnotesize\ttfamily float Potentiometer\+Sensor\+::get\+Raw\+Data\+Offset0to1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the raw data from \mbox{[}0; 1\mbox{]} float after offset You need to be the offsert with method read() 
+
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_potentiometer_sensor_a684f7ee149be0366e5f6e71cdc83de2d}\label{class_potentiometer_sensor_a684f7ee149be0366e5f6e71cdc83de2d}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!getRawDataOffset\_u16@{getRawDataOffset\_u16}}
+\index{getRawDataOffset\_u16@{getRawDataOffset\_u16}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{getRawDataOffset\_u16()}{getRawDataOffset\_u16()}}
+{\footnotesize\ttfamily uint16\+\_\+t Potentiometer\+Sensor\+::get\+Raw\+Data\+Offset\+\_\+u16 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the raw data from \mbox{[}0; U\+I\+N\+T16\+\_\+\+M\+AX\mbox{]} uint16\+\_\+t after offset You need to be the offsert with method read\+\_\+u16() 
+
+\begin{DoxyReturn}{Returns}
+uint16\+\_\+t 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_potentiometer_sensor_aada1d98540f5939c9373677041087616}\label{class_potentiometer_sensor_aada1d98540f5939c9373677041087616}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!getRawDataOffsetPercentage\_u16@{getRawDataOffsetPercentage\_u16}}
+\index{getRawDataOffsetPercentage\_u16@{getRawDataOffsetPercentage\_u16}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{getRawDataOffsetPercentage\_u16()}{getRawDataOffsetPercentage\_u16()}}
+{\footnotesize\ttfamily float Potentiometer\+Sensor\+::get\+Raw\+Data\+Offset\+Percentage\+\_\+u16 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the raw data, from \mbox{[}0; U\+I\+N\+T16\+\_\+\+M\+AX\mbox{]} uint16\+\_\+t and converts it to a percentage of \mbox{[}100; 0\mbox{]}\% (assuming you want the positive increment direction of the potentiometer to be reversed. 
+
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{class_potentiometer_sensor_aada1d98540f5939c9373677041087616_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_potentiometer_sensor_a3d8eed89ff4d44b85ad6f12ddc67bd09}\label{class_potentiometer_sensor_a3d8eed89ff4d44b85ad6f12ddc67bd09}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!getRawDataPercentage@{getRawDataPercentage}}
+\index{getRawDataPercentage@{getRawDataPercentage}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{getRawDataPercentage()}{getRawDataPercentage()}}
+{\footnotesize\ttfamily float Potentiometer\+Sensor\+::get\+Raw\+Data\+Percentage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Retrieves the raw data of the potentiometer in percent \mbox{[}0; 100\mbox{]}\%. 
+
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_potentiometer_sensor_a5d204ff18fbe4e4d9a32e9cc28886d34}\label{class_potentiometer_sensor_a5d204ff18fbe4e4d9a32e9cc28886d34}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!mapData@{mapData}}
+\index{mapData@{mapData}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{mapData()}{mapData()}}
+{\footnotesize\ttfamily float Potentiometer\+Sensor\+::map\+Data (\begin{DoxyParamCaption}\item[{float}]{input }\end{DoxyParamCaption}) const}
+
+
+
+Map the raw data after average, a Voltage limitation can occur due to the +-\/20\% tolerance of the potentiometers. then we invert the values sens because of the angle increase when the distance increase and not vice-\/versa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=273pt]{class_potentiometer_sensor_a5d204ff18fbe4e4d9a32e9cc28886d34_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_potentiometer_sensor_ae902aa4db978a69a3e0e977cb1867999}\label{class_potentiometer_sensor_ae902aa4db978a69a3e0e977cb1867999}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!setColor@{setColor}}
+\index{setColor@{setColor}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{setColor()}{setColor()}}
+{\footnotesize\ttfamily void Potentiometer\+Sensor\+::set\+Color (\begin{DoxyParamCaption}\item[{char}]{color }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_potentiometer_sensor_af1ab0ba9efc1ea49099aa18066abc02c}\label{class_potentiometer_sensor_af1ab0ba9efc1ea49099aa18066abc02c}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!setId@{setId}}
+\index{setId@{setId}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{setId()}{setId()}}
+{\footnotesize\ttfamily void Potentiometer\+Sensor\+::set\+Id (\begin{DoxyParamCaption}\item[{short int}]{id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_potentiometer_sensor_aa233763ec8665fb41269956b8a83631a}\label{class_potentiometer_sensor_aa233763ec8665fb41269956b8a83631a}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!setOffset@{setOffset}}
+\index{setOffset@{setOffset}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{setOffset()}{setOffset()}}
+{\footnotesize\ttfamily void Potentiometer\+Sensor\+::set\+Offset (\begin{DoxyParamCaption}\item[{float}]{offset }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_potentiometer_sensor_aaa1963dec3fe8d66118f303d004dc715}\label{class_potentiometer_sensor_aaa1963dec3fe8d66118f303d004dc715}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!setPin@{setPin}}
+\index{setPin@{setPin}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{setPin()}{setPin()}}
+{\footnotesize\ttfamily void Potentiometer\+Sensor\+::set\+Pin (\begin{DoxyParamCaption}\item[{Pin\+Name}]{pin }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_potentiometer_sensor_a4de293b294459611024d30054259ab33}\label{class_potentiometer_sensor_a4de293b294459611024d30054259ab33}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!m\_color@{m\_color}}
+\index{m\_color@{m\_color}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{m\_color}{m\_color}}
+{\footnotesize\ttfamily char Potentiometer\+Sensor\+::m\+\_\+color = \textquotesingle{}b\textquotesingle{}\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_potentiometer_sensor_ac7e63e85fe9d74a166af9af92278a166}\label{class_potentiometer_sensor_ac7e63e85fe9d74a166af9af92278a166}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!m\_id@{m\_id}}
+\index{m\_id@{m\_id}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{m\_id}{m\_id}}
+{\footnotesize\ttfamily short int Potentiometer\+Sensor\+::m\+\_\+id\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_potentiometer_sensor_a9972fbcc3f0802c51efac1ec5b0099c3}\label{class_potentiometer_sensor_a9972fbcc3f0802c51efac1ec5b0099c3}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!m\_offset\_standing@{m\_offset\_standing}}
+\index{m\_offset\_standing@{m\_offset\_standing}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{m\_offset\_standing}{m\_offset\_standing}}
+{\footnotesize\ttfamily float Potentiometer\+Sensor\+::m\+\_\+offset\+\_\+standing\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_potentiometer_sensor_aec22dbbf6020ae0faaa15e1a7987598c}\label{class_potentiometer_sensor_aec22dbbf6020ae0faaa15e1a7987598c}} 
+\index{PotentiometerSensor@{PotentiometerSensor}!m\_pin@{m\_pin}}
+\index{m\_pin@{m\_pin}!PotentiometerSensor@{PotentiometerSensor}}
+\doxysubsubsection{\texorpdfstring{m\_pin}{m\_pin}}
+{\footnotesize\ttfamily Pin\+Name Potentiometer\+Sensor\+::m\+\_\+pin\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_potentiometer_sensor_8hpp}{Potentiometer\+Sensor.\+hpp}}\item 
+\mbox{\hyperlink{_potentiometer_sensor_8cpp}{Potentiometer\+Sensor.\+cpp}}\end{DoxyCompactItemize}

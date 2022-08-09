@@ -1,0 +1,28 @@
+ \hypertarget{md__r_e_a_d_m_e_autotoc_md1}{}\doxysection{Project of smart exoskeleton}\label{md__r_e_a_d_m_e_autotoc_md1}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md2}{}\doxysection{Eevee2}\label{md__r_e_a_d_m_e_autotoc_md2}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md3}{}\doxysubsection{Introduction}\label{md__r_e_a_d_m_e_autotoc_md3}
+This programme is a component of the second version of Eevee2, the second generation of the connected exoskeleton prototype developed by Lucas Ribeiro and Corentin Benoit.\hypertarget{md__r_e_a_d_m_e_autotoc_md4}{}\doxysubsection{Objective}\label{md__r_e_a_d_m_e_autotoc_md4}
+\begin{DoxyVerb}This program pre-processes the raw sensor data to make it readable by edge-impulse.
+Allow :
+* Initialisation of sensors
+* Calibration of gyroscope
+* Data standardisation.
+\end{DoxyVerb}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md5}{}\doxysubsection{Hardware}\label{md__r_e_a_d_m_e_autotoc_md5}
+
+\begin{DoxyItemize}
+\item Membrane potentiometer Soft\+Pot \href{https://www.spectrasymbol.com/wp-content/uploads/2016/12/SOFTPOT-DATA-SHEET-Rev-F3.pdf}{\texttt{ Datasheet}}.
+\item Electronic board S\+T\+M32\+L4\+S5I \href{https://www.st.com/en/evaluation-tools/b-l4s5i-iot01a.html}{\texttt{ Datasheet}}.
+\item Wiper for membrane potentiometer.
+\item Fixing parts.
+\item Laevo Flex.
+\end{DoxyItemize}\hypertarget{md__r_e_a_d_m_e_autotoc_md6}{}\doxysubsection{Software}\label{md__r_e_a_d_m_e_autotoc_md6}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md7}{}\doxysubsubsection{Be careful, you need, before to launch the code, enter the different membrane potentiometer characteristics.}\label{md__r_e_a_d_m_e_autotoc_md7}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{const int ACTIVE\_LENGTH = 170-\/10; // SoftPot active length taking into account its (EET) Efective Electrical Travel}
+\DoxyCodeLine{const int ACTIVE\_ANGLE = 255; // SoftPot active angle, conversion of active length in theory but may vary due to curved potentiometer}
+\DoxyCodeLine{const int VOLTAGE\_LIMITATION = 0; //In the event that the input resistance reduces the current in the input pin too much, the new maximum should be measured and subtracted from }
+\DoxyCodeLine{UINT16\_T\_MAX}
+\end{DoxyCode}
+ 

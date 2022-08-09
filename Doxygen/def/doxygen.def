@@ -1,0 +1,2691 @@
+AutoGen Definitions dummy;
+class = {
+  cp-id     = 'class_potentiometer_sensor';
+  cp-name   = 'PotentiometerSensor';
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1af5eac8fba929a94c5542bba15e6bc85b';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'PotentiometerSensor';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '36';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1a590436df042ef2a6250f4137b7197d01';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'PotentiometerSensor';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+PinName
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'pin';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+short int
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'id';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '37';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1a30f5403ec31abfbc435a5fa5a70adf66';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '~PotentiometerSensor';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '40';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1aaa1963dec3fe8d66118f303d004dc715';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setPin';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+PinName
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'pin';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '44';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1aec22dbbf6020ae0faaa15e1a7987598c';
+        sec-mem-ref-line = '81';
+        sec-mem-ref-name = 'm_pin';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1a32cba3e879913368c6a8f18dde7f8615';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const PinName &
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getPin';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '45';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1aec22dbbf6020ae0faaa15e1a7987598c';
+        sec-mem-ref-line = '81';
+        sec-mem-ref-name = 'm_pin';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1af1ab0ba9efc1ea49099aa18066abc02c';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setId';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+short int
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'id';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '47';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1ac7e63e85fe9d74a166af9af92278a166';
+        sec-mem-ref-line = '84';
+        sec-mem-ref-name = 'm_id';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1a23c45183f44cd33d13af17603db0b446';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const short int &
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getId';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '48';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1ac7e63e85fe9d74a166af9af92278a166';
+        sec-mem-ref-line = '84';
+        sec-mem-ref-name = 'm_id';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1aa233763ec8665fb41269956b8a83631a';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setOffset';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'offset';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '50';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1a9972fbcc3f0802c51efac1ec5b0099c3';
+        sec-mem-ref-line = '82';
+        sec-mem-ref-name = 'm_offset_standing';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1acdfdfe32e0a5922ec200fbb260a814db';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const float &
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getOffset';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '51';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1a9972fbcc3f0802c51efac1ec5b0099c3';
+        sec-mem-ref-line = '82';
+        sec-mem-ref-name = 'm_offset_standing';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1ae902aa4db978a69a3e0e977cb1867999';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setColor';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+char
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'color';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '53';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1a4de293b294459611024d30054259ab33';
+        sec-mem-ref-line = '83';
+        sec-mem-ref-name = 'm_color';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1a41eeda154a0504a26d36c2de15d369f2';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const char &
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getColor';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '54';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1a4de293b294459611024d30054259ab33';
+        sec-mem-ref-line = '83';
+        sec-mem-ref-name = 'm_color';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1a3d8eed89ff4d44b85ad6f12ddc67bd09';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getRawDataPercentage';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '57';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Retrieves the raw data of the potentiometer in percent [0; 100]%.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return float 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1aec22dbbf6020ae0faaa15e1a7987598c';
+        sec-mem-ref-line = '81';
+        sec-mem-ref-name = 'm_pin';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1a2d7c66b4fe3fc45a9236251e93e76024';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getRawData0to1';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '58';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Gets the raw data from [0; 1] float.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return float 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1aec22dbbf6020ae0faaa15e1a7987598c';
+        sec-mem-ref-line = '81';
+        sec-mem-ref-name = 'm_pin';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1a9ebe3deebc9e8c9a1748cb480aef1975';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+uint16_t
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getRawData_u16';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '59';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Retrieves the raw data, from [0; UINT16_MAX] uint16_t.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return uint16_t 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1aec22dbbf6020ae0faaa15e1a7987598c';
+        sec-mem-ref-line = '81';
+        sec-mem-ref-name = 'm_pin';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1aada1d98540f5939c9373677041087616';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getRawDataOffsetPercentage_u16';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '60';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Gets the raw data, from [0; UINT16_MAX] uint16_t and converts it to a percentage of [100; 0]% (assuming you want the positive increment direction of the potentiometer to be reversed.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return float 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1a9972fbcc3f0802c51efac1ec5b0099c3';
+        sec-mem-ref-line = '82';
+        sec-mem-ref-name = 'm_offset_standing';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1aec22dbbf6020ae0faaa15e1a7987598c';
+        sec-mem-ref-line = '81';
+        sec-mem-ref-name = 'm_pin';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1a7716aac0a1beea49c4bccf279c84a823';
+        sec-mem-ref-line = '592';
+        sec-mem-ref-name = 'map';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1a27fcdf2bd75241f54a47735f3f7c6b89';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getRawDataOffset0to1';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '61';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Gets the raw data from [0; 1] float after offset
+You need to be the offsert with method read()
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return float 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1a9972fbcc3f0802c51efac1ec5b0099c3';
+        sec-mem-ref-line = '82';
+        sec-mem-ref-name = 'm_offset_standing';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1aec22dbbf6020ae0faaa15e1a7987598c';
+        sec-mem-ref-line = '81';
+        sec-mem-ref-name = 'm_pin';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1a684f7ee149be0366e5f6e71cdc83de2d';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+uint16_t
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getRawDataOffset_u16';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '62';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Gets the raw data from [0; UINT16_MAX] uint16_t after offset
+You need to be the offsert with method read_u16()
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return uint16_t 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1a9972fbcc3f0802c51efac1ec5b0099c3';
+        sec-mem-ref-line = '82';
+        sec-mem-ref-name = 'm_offset_standing';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1aec22dbbf6020ae0faaa15e1a7987598c';
+        sec-mem-ref-line = '81';
+        sec-mem-ref-name = 'm_pin';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1a94ff2d5698cff277ff8e8de1979c5359';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'displayPercentage';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '64';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+To display information to the user.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1aec22dbbf6020ae0faaa15e1a7987598c';
+        sec-mem-ref-line = '81';
+        sec-mem-ref-name = 'm_pin';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1a8f41bf3579bb7eab3659d8f4e43c0636';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'displayDistance';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'position_soft_pot_offset';
+        sec-mem-param-defname = 'result_position';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '65';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+To display linear position of the wiper at the user.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param result_position 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1a188e40bdb50b71eeea573634c90df9d5';
+        sec-mem-ref-line = '27';
+        sec-mem-ref-name = 'ACTIVE_ANGLE';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1a161c48c90e21b03dcb48a41c87bc002e';
+        sec-mem-ref-line = '26';
+        sec-mem-ref-name = 'ACTIVE_LENGTH';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1ac7e63e85fe9d74a166af9af92278a166';
+        sec-mem-ref-line = '84';
+        sec-mem-ref-name = 'm_id';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1a07c34601e50c9072d8dbe7abfc0973c1';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'displayAngle';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'position_soft_pot_offset';
+        sec-mem-param-defname = 'result_position';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '66';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+To display angulzr position of the wiper at the user.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param result_position 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1ac7e63e85fe9d74a166af9af92278a166';
+        sec-mem-ref-line = '84';
+        sec-mem-ref-name = 'm_id';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1a466aa12de4a96c1dc749f8f9fd9f9a59';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'displayTorque';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'torque';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '67';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Torque information for user.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param torque 
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1aef093254a24335db40a54619e90bd376';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'calculateAngle';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '69';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Gives the position of the wiper on the potentiometer in [degree].
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return float 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1a188e40bdb50b71eeea573634c90df9d5';
+        sec-mem-ref-line = '27';
+        sec-mem-ref-name = 'ACTIVE_ANGLE';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1a161c48c90e21b03dcb48a41c87bc002e';
+        sec-mem-ref-line = '26';
+        sec-mem-ref-name = 'ACTIVE_LENGTH';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1a9972fbcc3f0802c51efac1ec5b0099c3';
+        sec-mem-ref-line = '82';
+        sec-mem-ref-name = 'm_offset_standing';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1aec22dbbf6020ae0faaa15e1a7987598c';
+        sec-mem-ref-line = '81';
+        sec-mem-ref-name = 'm_pin';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1a7716aac0a1beea49c4bccf279c84a823';
+        sec-mem-ref-line = '592';
+        sec-mem-ref-name = 'map';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1adb2f61370f55e6aa8533f995b55d84d7';
+        sec-mem-ref-line = '29';
+        sec-mem-ref-name = 'VOLTAGE_LIMITATION';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1a4a43abe3f19493199a1a32b6ccb8f535';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'calculateDistance';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '70';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Gives the position of the wiper on the potentiometer in [cm].
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return float 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1a161c48c90e21b03dcb48a41c87bc002e';
+        sec-mem-ref-line = '26';
+        sec-mem-ref-name = 'ACTIVE_LENGTH';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1a9972fbcc3f0802c51efac1ec5b0099c3';
+        sec-mem-ref-line = '82';
+        sec-mem-ref-name = 'm_offset_standing';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1aec22dbbf6020ae0faaa15e1a7987598c';
+        sec-mem-ref-line = '81';
+        sec-mem-ref-name = 'm_pin';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1a7716aac0a1beea49c4bccf279c84a823';
+        sec-mem-ref-line = '592';
+        sec-mem-ref-name = 'map';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1adb2f61370f55e6aa8533f995b55d84d7';
+        sec-mem-ref-line = '29';
+        sec-mem-ref-name = 'VOLTAGE_LIMITATION';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1a46c768c7e1b7bedd6ad7a2ddaa5dd1c4';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'calculateTorque';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'angle';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+char &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'sens';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '71';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Determines the torque exerted by a rod of the exoskeleton
+There are two types of polynomial approximation for the four colours present.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param angle 
+@param sens 
+@return float 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1a4de293b294459611024d30054259ab33';
+        sec-mem-ref-line = '83';
+        sec-mem-ref-name = 'm_color';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1af18e8818c2a21ad006db22bdc2587ed5';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'forceDirection';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+char &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'force_direction';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+uint16_t
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'last_angle';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '73';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Determine on which curves to calculate the torque of one of the rods of the exo as a function of the displacement of the wiper at time t-1 and at time t.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param force_direction 
+@param last_angle 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1aec22dbbf6020ae0faaa15e1a7987598c';
+        sec-mem-ref-line = '81';
+        sec-mem-ref-name = 'm_pin';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1ac1f213e838be14cd5287ab7a2abefb21';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'chooseColor';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '74';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+determines the colour on the exoskeleton according to the user input
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1a4de293b294459611024d30054259ab33';
+        sec-mem-ref-line = '83';
+        sec-mem-ref-name = 'm_color';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_potentiometer_sensor_1a5d204ff18fbe4e4d9a32e9cc28886d34';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'mapData';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'input';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '75';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Map the raw data after average,
+a Voltage limitation can occur due to the +-20% tolerance of the potentiometers.
+then we invert the values sens because of the angle increase when the distance increase and not vice-versa.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param input 
+   @return float 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1a161c48c90e21b03dcb48a41c87bc002e';
+        sec-mem-ref-line = '26';
+        sec-mem-ref-name = 'ACTIVE_LENGTH';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1a7716aac0a1beea49c4bccf279c84a823';
+        sec-mem-ref-line = '592';
+        sec-mem-ref-name = 'map';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_potentiometer_sensor_8hpp_1adb2f61370f55e6aa8533f995b55d84d7';
+        sec-mem-ref-line = '29';
+        sec-mem-ref-name = 'VOLTAGE_LIMITATION';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'protected-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_potentiometer_sensor_1aec22dbbf6020ae0faaa15e1a7987598c';
+      sec-mem-virt = normal;
+      sec-mem-prot = protected;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+PinName
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'm_pin';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '81';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1aaa1963dec3fe8d66118f303d004dc715';
+        sec-mem-ref-line = '50';
+        sec-mem-ref-name = 'setPin';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1a32cba3e879913368c6a8f18dde7f8615';
+        sec-mem-ref-line = '54';
+        sec-mem-ref-name = 'getPin';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1a3d8eed89ff4d44b85ad6f12ddc67bd09';
+        sec-mem-ref-line = '94';
+        sec-mem-ref-name = 'getRawDataPercentage';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1a2d7c66b4fe3fc45a9236251e93e76024';
+        sec-mem-ref-line = '105';
+        sec-mem-ref-name = 'getRawData0to1';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1a9ebe3deebc9e8c9a1748cb480aef1975';
+        sec-mem-ref-line = '116';
+        sec-mem-ref-name = 'getRawData_u16';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1aada1d98540f5939c9373677041087616';
+        sec-mem-ref-line = '127';
+        sec-mem-ref-name = 'getRawDataOffsetPercentage_u16';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1a27fcdf2bd75241f54a47735f3f7c6b89';
+        sec-mem-ref-line = '139';
+        sec-mem-ref-name = 'getRawDataOffset0to1';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1a684f7ee149be0366e5f6e71cdc83de2d';
+        sec-mem-ref-line = '150';
+        sec-mem-ref-name = 'getRawDataOffset_u16';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1a94ff2d5698cff277ff8e8de1979c5359';
+        sec-mem-ref-line = '160';
+        sec-mem-ref-name = 'displayPercentage';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1a4a43abe3f19493199a1a32b6ccb8f535';
+        sec-mem-ref-line = '171';
+        sec-mem-ref-name = 'calculateDistance';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1aef093254a24335db40a54619e90bd376';
+        sec-mem-ref-line = '200';
+        sec-mem-ref-name = 'calculateAngle';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1af18e8818c2a21ad006db22bdc2587ed5';
+        sec-mem-ref-line = '491';
+        sec-mem-ref-name = 'forceDirection';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_potentiometer_sensor_1a9972fbcc3f0802c51efac1ec5b0099c3';
+      sec-mem-virt = normal;
+      sec-mem-prot = protected;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'm_offset_standing';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '82';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1aa233763ec8665fb41269956b8a83631a';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'setOffset';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1acdfdfe32e0a5922ec200fbb260a814db';
+        sec-mem-ref-line = '70';
+        sec-mem-ref-name = 'getOffset';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1aada1d98540f5939c9373677041087616';
+        sec-mem-ref-line = '127';
+        sec-mem-ref-name = 'getRawDataOffsetPercentage_u16';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1a27fcdf2bd75241f54a47735f3f7c6b89';
+        sec-mem-ref-line = '139';
+        sec-mem-ref-name = 'getRawDataOffset0to1';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1a684f7ee149be0366e5f6e71cdc83de2d';
+        sec-mem-ref-line = '150';
+        sec-mem-ref-name = 'getRawDataOffset_u16';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1a4a43abe3f19493199a1a32b6ccb8f535';
+        sec-mem-ref-line = '171';
+        sec-mem-ref-name = 'calculateDistance';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1aef093254a24335db40a54619e90bd376';
+        sec-mem-ref-line = '200';
+        sec-mem-ref-name = 'calculateAngle';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_potentiometer_sensor_1a4de293b294459611024d30054259ab33';
+      sec-mem-virt = normal;
+      sec-mem-prot = protected;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+char
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'm_color';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 'b'
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '83';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1ae902aa4db978a69a3e0e977cb1867999';
+        sec-mem-ref-line = '74';
+        sec-mem-ref-name = 'setColor';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1a41eeda154a0504a26d36c2de15d369f2';
+        sec-mem-ref-line = '78';
+        sec-mem-ref-name = 'getColor';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1a46c768c7e1b7bedd6ad7a2ddaa5dd1c4';
+        sec-mem-ref-line = '260';
+        sec-mem-ref-name = 'calculateTorque';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1ac1f213e838be14cd5287ab7a2abefb21';
+        sec-mem-ref-line = '529';
+        sec-mem-ref-name = 'chooseColor';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_potentiometer_sensor_1ac7e63e85fe9d74a166af9af92278a166';
+      sec-mem-virt = normal;
+      sec-mem-prot = protected;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+short int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'm_id';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      sec-mem-desc-line = '84';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1af1ab0ba9efc1ea49099aa18066abc02c';
+        sec-mem-ref-line = '58';
+        sec-mem-ref-name = 'setId';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1a23c45183f44cd33d13af17603db0b446';
+        sec-mem-ref-line = '62';
+        sec-mem-ref-name = 'getId';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1a8f41bf3579bb7eab3659d8f4e43c0636';
+        sec-mem-ref-line = '228';
+        sec-mem-ref-name = 'displayDistance';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_potentiometer_sensor_8cpp_1a07c34601e50c9072d8dbe7abfc0973c1';
+        sec-mem-ref-line = '242';
+        sec-mem-ref-name = 'displayAngle';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+  cp-fileline  = '33';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'PotentiometerSensor';
+        node-link = {
+          node-link-id = 'class_potentiometer_sensor';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'class_start_button';
+  cp-name   = 'StartButton';
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_start_button_1a4e1d70591d520bdb32215f06c6b6c518';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'StartButton';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/StartButton.hpp';
+      sec-mem-desc-line = '25';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_start_button_1ab27a4f93d1c67ae577f2f4e4690f1325';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'StartButton';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+PinName
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'pin';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/StartButton.hpp';
+      sec-mem-desc-line = '26';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_start_button_1a7ccb63695597c44b892fc3459299f53a';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '~StartButton';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/StartButton.hpp';
+      sec-mem-desc-line = '29';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_start_button_1a0dd7d447136ea7f94c8f165824d4faf8';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setPin';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+PinName
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'pin';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/StartButton.hpp';
+      sec-mem-desc-line = '33';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_start_button_8hpp_1ad704542cf9bee256e100a1cad16ceb00';
+        sec-mem-ref-line = '46';
+        sec-mem-ref-name = 'm_pin';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_start_button_1a180a350740475b90df916dd2882393da';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const PinName &
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getPin';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/StartButton.hpp';
+      sec-mem-desc-line = '34';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_start_button_8hpp_1ad704542cf9bee256e100a1cad16ceb00';
+        sec-mem-ref-line = '46';
+        sec-mem-ref-name = 'm_pin';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_start_button_1a1723c569f806b67c15d320d2ec1b1453';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'displayWait';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/StartButton.hpp';
+      sec-mem-desc-line = '38';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Information for the user.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_start_button_8cpp_1af2429a4219a7e9868f57d23dcb60baa5';
+        sec-mem-ref-line = '105';
+        sec-mem-ref-name = 'detection';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_start_button_8hpp_1ad704542cf9bee256e100a1cad16ceb00';
+        sec-mem-ref-line = '46';
+        sec-mem-ref-name = 'm_pin';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'main_8cpp_1a406e502f12ca8af15c58262f84a977b0';
+        sec-mem-ref-line = '37';
+        sec-mem-ref-name = 'startButton';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'main_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
+        sec-mem-ref-line = '78';
+        sec-mem-ref-name = 'main';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_start_button_1ad1b9e41a5cd40ba447df7d947e1e7169';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'initDisplayIMU';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/StartButton.hpp';
+      sec-mem-desc-line = '39';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Information for the user.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_start_button_8cpp_1af2429a4219a7e9868f57d23dcb60baa5';
+        sec-mem-ref-line = '105';
+        sec-mem-ref-name = 'detection';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_start_button_8hpp_1ad704542cf9bee256e100a1cad16ceb00';
+        sec-mem-ref-line = '46';
+        sec-mem-ref-name = 'm_pin';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'main_8cpp_1a406e502f12ca8af15c58262f84a977b0';
+        sec-mem-ref-line = '37';
+        sec-mem-ref-name = 'startButton';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'main_8cpp_1a5e6636e4b3e51e19adc9069d52000ed5';
+        sec-mem-ref-line = '225';
+        sec-mem-ref-name = 'initCalibration';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_start_button_1acadeee2918559367cdc04dcdad42c2d2';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'initDisplayPot';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/StartButton.hpp';
+      sec-mem-desc-line = '40';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Information for the user.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_start_button_8cpp_1af2429a4219a7e9868f57d23dcb60baa5';
+        sec-mem-ref-line = '105';
+        sec-mem-ref-name = 'detection';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_start_button_8hpp_1ad704542cf9bee256e100a1cad16ceb00';
+        sec-mem-ref-line = '46';
+        sec-mem-ref-name = 'm_pin';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'main_8cpp_1a406e502f12ca8af15c58262f84a977b0';
+        sec-mem-ref-line = '37';
+        sec-mem-ref-name = 'startButton';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'main_8cpp_1a5e6636e4b3e51e19adc9069d52000ed5';
+        sec-mem-ref-line = '225';
+        sec-mem-ref-name = 'initCalibration';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_start_button_1af2429a4219a7e9868f57d23dcb60baa5';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'detection';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+DigitalIn
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'startButton';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/StartButton.hpp';
+      sec-mem-desc-line = '41';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Detects when the user clicks on the button (on the card or external button)
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param startButton 
+@return true 
+@return false 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_start_button_8hpp_1ad704542cf9bee256e100a1cad16ceb00';
+        sec-mem-ref-line = '46';
+        sec-mem-ref-name = 'm_pin';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'main_8cpp_1a406e502f12ca8af15c58262f84a977b0';
+        sec-mem-ref-line = '37';
+        sec-mem-ref-name = 'startButton';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_start_button_8cpp_1a1723c569f806b67c15d320d2ec1b1453';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'displayWait';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_start_button_8cpp_1ad1b9e41a5cd40ba447df7d947e1e7169';
+        sec-mem-ref-line = '78';
+        sec-mem-ref-name = 'initDisplayIMU';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_start_button_8cpp_1acadeee2918559367cdc04dcdad42c2d2';
+        sec-mem-ref-line = '90';
+        sec-mem-ref-name = 'initDisplayPot';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'protected-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_start_button_1ad704542cf9bee256e100a1cad16ceb00';
+      sec-mem-virt = normal;
+      sec-mem-prot = protected;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+PinName
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'm_pin';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/StartButton.hpp';
+      sec-mem-desc-line = '46';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_start_button_8cpp_1a0dd7d447136ea7f94c8f165824d4faf8';
+        sec-mem-ref-line = '46';
+        sec-mem-ref-name = 'setPin';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_start_button_8cpp_1a180a350740475b90df916dd2882393da';
+        sec-mem-ref-line = '50';
+        sec-mem-ref-name = 'getPin';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_start_button_8cpp_1a1723c569f806b67c15d320d2ec1b1453';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'displayWait';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_start_button_8cpp_1ad1b9e41a5cd40ba447df7d947e1e7169';
+        sec-mem-ref-line = '78';
+        sec-mem-ref-name = 'initDisplayIMU';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_start_button_8cpp_1acadeee2918559367cdc04dcdad42c2d2';
+        sec-mem-ref-line = '90';
+        sec-mem-ref-name = 'initDisplayPot';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_start_button_8cpp_1af2429a4219a7e9868f57d23dcb60baa5';
+        sec-mem-ref-line = '105';
+        sec-mem-ref-name = 'detection';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/corentin/Documents/nn-data-forwarder-laevo/StartButton.hpp';
+  cp-fileline  = '22';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'StartButton';
+        node-link = {
+          node-link-id = 'class_start_button';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'class_touch_sensor';
+  cp-name   = 'TouchSensor';
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_touch_sensor_1a76c52168735d368ba5eb9dd98261fbff';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'TouchSensor';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/TouchSensor.hpp';
+      sec-mem-desc-line = '26';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_touch_sensor_1ac50556d5a4d269a2a62c8c9521118f42';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'TouchSensor';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+PinName
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'pin';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/TouchSensor.hpp';
+      sec-mem-desc-line = '27';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_touch_sensor_1a9acc204e374d1d01338a903f7997f9d7';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '~TouchSensor';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/TouchSensor.hpp';
+      sec-mem-desc-line = '30';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_touch_sensor_1ad2285a68eb04c2d4088985a768edc8f4';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setPin';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+PinName
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'pin';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/TouchSensor.hpp';
+      sec-mem-desc-line = '34';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_touch_sensor_8hpp_1ab2fc90ef969cd6d5b03b80c91da89655';
+        sec-mem-ref-line = '44';
+        sec-mem-ref-name = 'm_pin';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_touch_sensor_1a9c0482d7df18ae01076c25195603d778';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const PinName &
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getPin';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/TouchSensor.hpp';
+      sec-mem-desc-line = '35';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_touch_sensor_8hpp_1ab2fc90ef969cd6d5b03b80c91da89655';
+        sec-mem-ref-line = '44';
+        sec-mem-ref-name = 'm_pin';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_touch_sensor_1a1b4abcb4fb4fe0ce92f812692a1fdb64';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'display';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/TouchSensor.hpp';
+      sec-mem-desc-line = '38';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+For display the pressure percentage on the pressure sensor.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_touch_sensor_8hpp_1ab2fc90ef969cd6d5b03b80c91da89655';
+        sec-mem-ref-line = '44';
+        sec-mem-ref-name = 'm_pin';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_touch_sensor_1a90d2e1fb07cf67dd6be2f90bed66a9e6';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'detection';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/TouchSensor.hpp';
+      sec-mem-desc-line = '39';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Finds a Boolean value (0 or 100) the scale is essential. It allows you to give importance to the data when it is sent to EdgeImpulse.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return int 
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_touch_sensor_8hpp_1ab2fc90ef969cd6d5b03b80c91da89655';
+        sec-mem-ref-line = '44';
+        sec-mem-ref-name = 'm_pin';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_touch_sensor_8hpp_1ab320100bdc9fa7e2092ee1cbd41cf2a8';
+        sec-mem-ref-line = '19';
+        sec-mem-ref-name = 'TRESHOLD';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'protected-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_touch_sensor_1ab2fc90ef969cd6d5b03b80c91da89655';
+      sec-mem-virt = normal;
+      sec-mem-prot = protected;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+PinName
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'm_pin';
+      sec-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/TouchSensor.hpp';
+      sec-mem-desc-line = '44';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_touch_sensor_8cpp_1ad2285a68eb04c2d4088985a768edc8f4';
+        sec-mem-ref-line = '46';
+        sec-mem-ref-name = 'setPin';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_touch_sensor_8cpp_1a9c0482d7df18ae01076c25195603d778';
+        sec-mem-ref-line = '50';
+        sec-mem-ref-name = 'getPin';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_touch_sensor_8cpp_1a1b4abcb4fb4fe0ce92f812692a1fdb64';
+        sec-mem-ref-line = '65';
+        sec-mem-ref-name = 'display';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_touch_sensor_8cpp_1a90d2e1fb07cf67dd6be2f90bed66a9e6';
+        sec-mem-ref-line = '77';
+        sec-mem-ref-name = 'detection';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/corentin/Documents/nn-data-forwarder-laevo/TouchSensor.hpp';
+  cp-fileline  = '23';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'TouchSensor';
+        node-link = {
+          node-link-id = 'class_touch_sensor';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+file = {
+  file-id   = '_c_make_lists_8txt';
+  file-name = 'CMakeLists.txt';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_c_make_lists_8txt_1a9a0b1157d9a0b2fabfeea8b5232789aa';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'cmake_minimum_required';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+VERSION 3.19.0
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'FATAL_ERROR';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/CMakeLists.txt';
+      func-mem-desc-line = '4';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_c_make_lists_8txt_1a8ccc0308b4c6749a420280412442ca69';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+mbed os CACHE INTERNAL
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'set';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+MBED_CONFIG_PATH ${CMAKE_CURRENT_BINARY_DIR} CACHE INTERNAL ""
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/CMakeLists.txt';
+      func-mem-desc-line = '7';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_c_make_lists_8txt_1ac8f3591810a34bd2789a13ca4ba7b14b';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+tools cmake app cmake
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'add_subdirectory';
+      func-mem-param = {
+        func-mem-param-declname = '${MBED_PATH}';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/CMakeLists.txt';
+      func-mem-desc-line = '12';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_c_make_lists_8txt_1ab8efae10847b46989da0f83b07d5f47c';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'mbed_configure_app_target';
+      func-mem-param = {
+        func-mem-param-declname = '${APP_TARGET}';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/CMakeLists.txt';
+      func-mem-desc-line = '16';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_c_make_lists_8txt_1a440ed56b340a4d0d1e8fed049302afc4';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'target_sources';
+      func-mem-param = {
+        func-mem-param-declname = '${APP_TARGET} PRIVATE main.';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/CMakeLists.txt';
+      func-mem-desc-line = '20';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = '/home/corentin/Documents/nn-data-forwarder-laevo/CMakeLists.txt';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_c_o_n_t_r_i_b_u_t_i_n_g_8md';
+  file-name = 'CONTRIBUTING.md';
+  file-full-name  = '/home/corentin/Documents/nn-data-forwarder-laevo/CONTRIBUTING.md';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'main_8cpp';
+  file-name = 'main.cpp';
+    define = {
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'main_8cpp_1aaadf617e5c95c7b1a1dec6d6fdd27f72';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'toDegrees';
+      define-mem-param  = {
+        define-mem-def-name = 'x';
+      }; /*        define-mem-def--param */
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+(x * 57.2957795)
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/main.cpp';
+      define-mem-desc-line = '26';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'main_8cpp_1af765d05a9f2bbeb25c2ac7ac5f4ec12f';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'toRadians';
+      define-mem-param  = {
+        define-mem-def-name = 'x';
+      }; /*        define-mem-def--param */
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+(x * 0.01745329252)
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/main.cpp';
+      define-mem-desc-line = '28';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'main_8cpp_1ad830e42658dadfe958e3261a13a1c7c9';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'g0';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+9.812865328
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/main.cpp';
+      define-mem-desc-line = '30';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'main_8cpp_1a711582dd93d3aea70bf18408b3a6c72c';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'BLINKING_RATE';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+500ms
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/main.cpp';
+      define-mem-desc-line = '33';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'main_8cpp_1a8a9be9c4e9798b458eee1b4ce2cdebf3';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'BUSY_LOOP_DURATON';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+9ms
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/main.cpp';
+      define-mem-desc-line = '34';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    };
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'main_8cpp_1a6b71ffd718e2af00cebeb05560b44be7';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+DigitalOut
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'led1';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+LED1
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/main.cpp';
+      func-mem-desc-line = '40';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referencedby = {
+        func-mem-ref-id = 'main_8cpp_1a5e6636e4b3e51e19adc9069d52000ed5';
+        func-mem-ref-line = '225';
+        func-mem-ref-name = 'initCalibration';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'main_8cpp_1af3d0defebb8395a7695ce6d09ca5a82f';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+static DevI2C
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'devI2C';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+PB_11
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+PB_10
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/main.cpp';
+      func-mem-desc-line = '57';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'main_8cpp_1a5e6636e4b3e51e19adc9069d52000ed5';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'initCalibration';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'N';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/main.cpp';
+      func-mem-desc-line = '225';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Use for init display.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param N 
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = '_start_button_8cpp_1ad1b9e41a5cd40ba447df7d947e1e7169';
+        func-mem-ref-line = '78';
+        func-mem-ref-name = 'StartButton::initDisplayIMU';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = '_start_button_8cpp_1acadeee2918559367cdc04dcdad42c2d2';
+        func-mem-ref-line = '90';
+        func-mem-ref-name = 'StartButton::initDisplayPot';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8cpp_1a406e502f12ca8af15c58262f84a977b0';
+        func-mem-ref-line = '37';
+        func-mem-ref-name = 'startButton';
+    };
+      func-mem-referencedby = {
+        func-mem-ref-id = 'main_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
+        func-mem-ref-line = '78';
+        func-mem-ref-name = 'main';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'main_8cpp_1a4c13e79da87a8a6e8ece1559f497cce5';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'calibrate_sensors';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'N';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/main.cpp';
+      func-mem-desc-line = '151';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Use for calibration.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param N 
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'main_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'main';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/main.cpp';
+      func-mem-desc-line = '78';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+main
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@return int 
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = '_start_button_8cpp_1a1723c569f806b67c15d320d2ec1b1453';
+        func-mem-ref-line = '66';
+        func-mem-ref-name = 'StartButton::displayWait';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8cpp_1a5e6636e4b3e51e19adc9069d52000ed5';
+        func-mem-ref-line = '225';
+        func-mem-ref-name = 'initCalibration';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8cpp_1a406e502f12ca8af15c58262f84a977b0';
+        func-mem-ref-line = '37';
+        func-mem-ref-name = 'startButton';
+    };
+    }; /* func-member */
+    };
+    var = {
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'main_8cpp_1a406e502f12ca8af15c58262f84a977b0';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+StartButton
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'startButton';
+      var-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/main.cpp';
+      var-mem-desc-line = '37';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-referencedby = {
+        var-mem-ref-id = 'main_8cpp_1a840291bc02cba5474a4cb46a9b9566fe';
+        var-mem-ref-line = '78';
+        var-mem-ref-name = 'main';
+    };
+      var-mem-referencedby = {
+        var-mem-ref-id = 'main_8cpp_1a5e6636e4b3e51e19adc9069d52000ed5';
+        var-mem-ref-line = '225';
+        var-mem-ref-name = 'initCalibration';
+    };
+      var-mem-referencedby = {
+        var-mem-ref-id = '_start_button_8cpp_1a1723c569f806b67c15d320d2ec1b1453';
+        var-mem-ref-line = '66';
+        var-mem-ref-name = 'StartButton::displayWait';
+    };
+      var-mem-referencedby = {
+        var-mem-ref-id = '_start_button_8cpp_1ad1b9e41a5cd40ba447df7d947e1e7169';
+        var-mem-ref-line = '78';
+        var-mem-ref-name = 'StartButton::initDisplayIMU';
+    };
+      var-mem-referencedby = {
+        var-mem-ref-id = '_start_button_8cpp_1acadeee2918559367cdc04dcdad42c2d2';
+        var-mem-ref-line = '90';
+        var-mem-ref-name = 'StartButton::initDisplayPot';
+    };
+      var-mem-referencedby = {
+        var-mem-ref-id = '_start_button_8cpp_1af2429a4219a7e9868f57d23dcb60baa5';
+        var-mem-ref-line = '105';
+        var-mem-ref-name = 'StartButton::detection';
+    };
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'main_8cpp_1a548d1e61a459a99c93002faeb3253fcf';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+TouchSensor
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'sensorButton';
+      var-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/main.cpp';
+      var-mem-desc-line = '43';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'main_8cpp_1a45960647009c74c8def74729bf5466f0';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+PotentiometerSensor
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'potentiometer_right';
+      var-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/main.cpp';
+      var-mem-desc-line = '46';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'main_8cpp_1a2b5d960a3ef2ecba36cc9abc80a030ff';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+PotentiometerSensor
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'potentiometer_left';
+      var-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/main.cpp';
+      var-mem-desc-line = '47';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'main_8cpp_1aaf26517824f10dd64e1bc8d068555275';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+static int16_t
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'sampling_freq';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 100
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/main.cpp';
+      var-mem-desc-line = '50';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'main_8cpp_1af3cb102bc8da566efaf689088b6dce6f';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+static int64_t
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'time_between_samples_us';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= (1000000 / (sampling_freq))
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/main.cpp';
+      var-mem-desc-line = '51';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'main_8cpp_1a487def46f65a3750287354443ea023f1';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'gyr_offset';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= {0}
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/main.cpp';
+      var-mem-desc-line = '54';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'main_8cpp_1a088f8c73570f1c6c80c9c59b7a177910';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+static LSM6DSLSensor acc_gyro &
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'devI2C';
+      var-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/main.cpp';
+      var-mem-desc-line = '59';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    };
+  file-full-name  = '/home/corentin/Documents/nn-data-forwarder-laevo/main.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_potentiometer_sensor_8cpp';
+  file-name = 'PotentiometerSensor.cpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_potentiometer_sensor_8cpp_1a7716aac0a1beea49c4bccf279c84a823';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'map';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'x';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'in_min';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'in_max';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'out_min';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'out_max';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.cpp';
+      func-mem-desc-line = '592';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+For mapping value.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param x 
+@param in_min 
+@param in_max 
+@param out_min 
+@param out_max 
+@return double 
+_EnD_oF_dEf_TeXt_;
+      func-mem-referencedby = {
+        func-mem-ref-id = '_potentiometer_sensor_8cpp_1aef093254a24335db40a54619e90bd376';
+        func-mem-ref-line = '200';
+        func-mem-ref-name = 'PotentiometerSensor::calculateAngle';
+    };
+      func-mem-referencedby = {
+        func-mem-ref-id = '_potentiometer_sensor_8cpp_1a4a43abe3f19493199a1a32b6ccb8f535';
+        func-mem-ref-line = '171';
+        func-mem-ref-name = 'PotentiometerSensor::calculateDistance';
+    };
+      func-mem-referencedby = {
+        func-mem-ref-id = '_potentiometer_sensor_8cpp_1aada1d98540f5939c9373677041087616';
+        func-mem-ref-line = '127';
+        func-mem-ref-name = 'PotentiometerSensor::getRawDataOffsetPercentage_u16';
+    };
+      func-mem-referencedby = {
+        func-mem-ref-id = '_potentiometer_sensor_8cpp_1a5d204ff18fbe4e4d9a32e9cc28886d34';
+        func-mem-ref-line = '577';
+        func-mem-ref-name = 'PotentiometerSensor::mapData';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_potentiometer_sensor_8cpp_1adb0aeb41c1441ec216045379984740f7';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'calculateGlobalTorque';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'torque_right';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'torque_left';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.cpp';
+      func-mem-desc-line = '603';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Average torque.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param torque_right 
+@param torque_left 
+@return float 
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+@author Corentin BENOIT
+@version 1.1
+@date 2022-08-04
+
+@copyright Copyright (c) 2022
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_potentiometer_sensor_8hpp';
+  file-name = 'PotentiometerSensor.hpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_potentiometer_sensor_8hpp_1a7716aac0a1beea49c4bccf279c84a823';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'map';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'x';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'in_min';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'in_max';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'out_min';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'out_max';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      func-mem-desc-line = '88';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+For mapping value.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param x 
+@param in_min 
+@param in_max 
+@param out_min 
+@param out_max 
+@return double 
+_EnD_oF_dEf_TeXt_;
+      func-mem-referencedby = {
+        func-mem-ref-id = '_potentiometer_sensor_8cpp_1aef093254a24335db40a54619e90bd376';
+        func-mem-ref-line = '200';
+        func-mem-ref-name = 'PotentiometerSensor::calculateAngle';
+    };
+      func-mem-referencedby = {
+        func-mem-ref-id = '_potentiometer_sensor_8cpp_1a4a43abe3f19493199a1a32b6ccb8f535';
+        func-mem-ref-line = '171';
+        func-mem-ref-name = 'PotentiometerSensor::calculateDistance';
+    };
+      func-mem-referencedby = {
+        func-mem-ref-id = '_potentiometer_sensor_8cpp_1aada1d98540f5939c9373677041087616';
+        func-mem-ref-line = '127';
+        func-mem-ref-name = 'PotentiometerSensor::getRawDataOffsetPercentage_u16';
+    };
+      func-mem-referencedby = {
+        func-mem-ref-id = '_potentiometer_sensor_8cpp_1a5d204ff18fbe4e4d9a32e9cc28886d34';
+        func-mem-ref-line = '577';
+        func-mem-ref-name = 'PotentiometerSensor::mapData';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_potentiometer_sensor_8hpp_1adb0aeb41c1441ec216045379984740f7';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'calculateGlobalTorque';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'torque_right';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'torque_left';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      func-mem-desc-line = '89';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Average torque.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param torque_right 
+@param torque_left 
+@return float 
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+    var = {
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_potentiometer_sensor_8hpp_1a470007efd131ef9a11d2d338e17efc45';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const int
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'GRAPH_LENGTH';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 100
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      var-mem-desc-line = '22';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_potentiometer_sensor_8hpp_1a161c48c90e21b03dcb48a41c87bc002e';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const int
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'ACTIVE_LENGTH';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 170-10
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      var-mem-desc-line = '26';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-referencedby = {
+        var-mem-ref-id = '_potentiometer_sensor_8cpp_1a4a43abe3f19493199a1a32b6ccb8f535';
+        var-mem-ref-line = '171';
+        var-mem-ref-name = 'PotentiometerSensor::calculateDistance';
+    };
+      var-mem-referencedby = {
+        var-mem-ref-id = '_potentiometer_sensor_8cpp_1aef093254a24335db40a54619e90bd376';
+        var-mem-ref-line = '200';
+        var-mem-ref-name = 'PotentiometerSensor::calculateAngle';
+    };
+      var-mem-referencedby = {
+        var-mem-ref-id = '_potentiometer_sensor_8cpp_1a8f41bf3579bb7eab3659d8f4e43c0636';
+        var-mem-ref-line = '228';
+        var-mem-ref-name = 'PotentiometerSensor::displayDistance';
+    };
+      var-mem-referencedby = {
+        var-mem-ref-id = '_potentiometer_sensor_8cpp_1a5d204ff18fbe4e4d9a32e9cc28886d34';
+        var-mem-ref-line = '577';
+        var-mem-ref-name = 'PotentiometerSensor::mapData';
+    };
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_potentiometer_sensor_8hpp_1a188e40bdb50b71eeea573634c90df9d5';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const int
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'ACTIVE_ANGLE';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 255
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      var-mem-desc-line = '27';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-referencedby = {
+        var-mem-ref-id = '_potentiometer_sensor_8cpp_1aef093254a24335db40a54619e90bd376';
+        var-mem-ref-line = '200';
+        var-mem-ref-name = 'PotentiometerSensor::calculateAngle';
+    };
+      var-mem-referencedby = {
+        var-mem-ref-id = '_potentiometer_sensor_8cpp_1a8f41bf3579bb7eab3659d8f4e43c0636';
+        var-mem-ref-line = '228';
+        var-mem-ref-name = 'PotentiometerSensor::displayDistance';
+    };
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_potentiometer_sensor_8hpp_1a848cc08b49def46e8f4cc1e74bdc3737';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const int
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'RANGE';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 75
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      var-mem-desc-line = '28';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = '_potentiometer_sensor_8hpp_1adb2f61370f55e6aa8533f995b55d84d7';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const int
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'VOLTAGE_LIMITATION';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 0
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+      var-mem-desc-line = '29';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-referencedby = {
+        var-mem-ref-id = '_potentiometer_sensor_8cpp_1a4a43abe3f19493199a1a32b6ccb8f535';
+        var-mem-ref-line = '171';
+        var-mem-ref-name = 'PotentiometerSensor::calculateDistance';
+    };
+      var-mem-referencedby = {
+        var-mem-ref-id = '_potentiometer_sensor_8cpp_1aef093254a24335db40a54619e90bd376';
+        var-mem-ref-line = '200';
+        var-mem-ref-name = 'PotentiometerSensor::calculateAngle';
+    };
+      var-mem-referencedby = {
+        var-mem-ref-id = '_potentiometer_sensor_8cpp_1a5d204ff18fbe4e4d9a32e9cc28886d34';
+        var-mem-ref-line = '577';
+        var-mem-ref-name = 'PotentiometerSensor::mapData';
+    };
+    }; /* var-member */
+    };
+  file-full-name  = '/home/corentin/Documents/nn-data-forwarder-laevo/PotentiometerSensor.hpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+@author Corentin BENOIT
+@version 1.1
+@date 2022-08-04
+
+@copyright Copyright (c) 2022
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_r_e_a_d_m_e_8md';
+  file-name = 'README.md';
+  file-full-name  = '/home/corentin/Documents/nn-data-forwarder-laevo/README.md';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_start_button_8cpp';
+  file-name = 'StartButton.cpp';
+  file-full-name  = '/home/corentin/Documents/nn-data-forwarder-laevo/StartButton.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+@author Corentin BENOIT
+@version 1.1
+@date 2022-08-04
+
+@copyright Copyright (c) 2022
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_start_button_8hpp';
+  file-name = 'StartButton.hpp';
+  file-full-name  = '/home/corentin/Documents/nn-data-forwarder-laevo/StartButton.hpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+@author Corentin BENOIT
+@version 1.1
+@date 2022-08-04
+
+@copyright Copyright (c) 2022
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_touch_sensor_8cpp';
+  file-name = 'TouchSensor.cpp';
+  file-full-name  = '/home/corentin/Documents/nn-data-forwarder-laevo/TouchSensor.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+@author Corentin BENOIT
+@version 1.1
+@date 2022-08-04
+
+@copyright Copyright (c) 2022
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_touch_sensor_8hpp';
+  file-name = 'TouchSensor.hpp';
+    define = {
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = '_touch_sensor_8hpp_1ab320100bdc9fa7e2092ee1cbd41cf2a8';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'TRESHOLD';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+15
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/corentin/Documents/nn-data-forwarder-laevo/TouchSensor.hpp';
+      define-mem-desc-line = '19';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    };
+  file-full-name  = '/home/corentin/Documents/nn-data-forwarder-laevo/TouchSensor.hpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+@author Corentin BENOIT
+@version 1.1
+@date 2022-08-04
+
+@copyright Copyright (c) 2022
+_EnD_oF_dEf_TeXt_;
+}; /* file */

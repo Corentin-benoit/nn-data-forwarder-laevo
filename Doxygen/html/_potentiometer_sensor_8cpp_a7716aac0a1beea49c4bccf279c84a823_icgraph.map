@@ -1,0 +1,7 @@
+<map id="map" name="map">
+<area shape="rect" id="node1" title="For mapping value." alt="" coords="307,111,357,138"/>
+<area shape="rect" id="node2" href="$class_potentiometer_sensor.html#aef093254a24335db40a54619e90bd376" title="Gives the position of the wiper on the potentiometer in [degree]." alt="" coords="53,5,211,47"/>
+<area shape="rect" id="node3" href="$class_potentiometer_sensor.html#a4a43abe3f19493199a1a32b6ccb8f535" title="Gives the position of the wiper on the potentiometer in [cm]." alt="" coords="53,71,211,112"/>
+<area shape="rect" id="node4" href="$class_potentiometer_sensor.html#aada1d98540f5939c9373677041087616" title="Gets the raw data, from [0; UINT16_MAX] uint16_t and converts it to a percentage of [100; 0]% (assumi..." alt="" coords="5,136,259,177"/>
+<area shape="rect" id="node5" href="$class_potentiometer_sensor.html#a5d204ff18fbe4e4d9a32e9cc28886d34" title="Map the raw data after average, a Voltage limitation can occur due to the +&#45;20% tolerance of the pote..." alt="" coords="53,201,211,243"/>
+</map>

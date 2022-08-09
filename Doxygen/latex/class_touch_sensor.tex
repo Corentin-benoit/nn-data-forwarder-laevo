@@ -1,0 +1,112 @@
+\hypertarget{class_touch_sensor}{}\doxysection{Touch\+Sensor Class Reference}
+\label{class_touch_sensor}\index{TouchSensor@{TouchSensor}}
+
+
+{\ttfamily \#include $<$Touch\+Sensor.\+hpp$>$}
+
+
+
+Collaboration diagram for Touch\+Sensor\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{class_touch_sensor__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_touch_sensor_a76c52168735d368ba5eb9dd98261fbff}{Touch\+Sensor}} ()
+\item 
+\mbox{\hyperlink{class_touch_sensor_ac50556d5a4d269a2a62c8c9521118f42}{Touch\+Sensor}} (Pin\+Name pin)
+\item 
+\mbox{\hyperlink{class_touch_sensor_a9acc204e374d1d01338a903f7997f9d7}{$\sim$\+Touch\+Sensor}} ()
+\item 
+void \mbox{\hyperlink{class_touch_sensor_ad2285a68eb04c2d4088985a768edc8f4}{set\+Pin}} (Pin\+Name pin)
+\item 
+const Pin\+Name \& \mbox{\hyperlink{class_touch_sensor_a9c0482d7df18ae01076c25195603d778}{get\+Pin}} () const
+\item 
+void \mbox{\hyperlink{class_touch_sensor_a1b4abcb4fb4fe0ce92f812692a1fdb64}{display}} () const
+\begin{DoxyCompactList}\small\item\em For display the pressure percentage on the pressure sensor. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_touch_sensor_a90d2e1fb07cf67dd6be2f90bed66a9e6}{detection}} () const
+\begin{DoxyCompactList}\small\item\em Finds a Boolean value (0 or 100) the scale is essential. It allows you to give importance to the data when it is sent to Edge\+Impulse. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Pin\+Name \mbox{\hyperlink{class_touch_sensor_ab2fc90ef969cd6d5b03b80c91da89655}{m\+\_\+pin}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_touch_sensor_a76c52168735d368ba5eb9dd98261fbff}\label{class_touch_sensor_a76c52168735d368ba5eb9dd98261fbff}} 
+\index{TouchSensor@{TouchSensor}!TouchSensor@{TouchSensor}}
+\index{TouchSensor@{TouchSensor}!TouchSensor@{TouchSensor}}
+\doxysubsubsection{\texorpdfstring{TouchSensor()}{TouchSensor()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Touch\+Sensor\+::\+Touch\+Sensor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_touch_sensor_ac50556d5a4d269a2a62c8c9521118f42}\label{class_touch_sensor_ac50556d5a4d269a2a62c8c9521118f42}} 
+\index{TouchSensor@{TouchSensor}!TouchSensor@{TouchSensor}}
+\index{TouchSensor@{TouchSensor}!TouchSensor@{TouchSensor}}
+\doxysubsubsection{\texorpdfstring{TouchSensor()}{TouchSensor()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Touch\+Sensor\+::\+Touch\+Sensor (\begin{DoxyParamCaption}\item[{Pin\+Name}]{pin }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_touch_sensor_a9acc204e374d1d01338a903f7997f9d7}\label{class_touch_sensor_a9acc204e374d1d01338a903f7997f9d7}} 
+\index{TouchSensor@{TouchSensor}!````~TouchSensor@{$\sim$TouchSensor}}
+\index{````~TouchSensor@{$\sim$TouchSensor}!TouchSensor@{TouchSensor}}
+\doxysubsubsection{\texorpdfstring{$\sim$TouchSensor()}{~TouchSensor()}}
+{\footnotesize\ttfamily Touch\+Sensor\+::$\sim$\+Touch\+Sensor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_touch_sensor_a90d2e1fb07cf67dd6be2f90bed66a9e6}\label{class_touch_sensor_a90d2e1fb07cf67dd6be2f90bed66a9e6}} 
+\index{TouchSensor@{TouchSensor}!detection@{detection}}
+\index{detection@{detection}!TouchSensor@{TouchSensor}}
+\doxysubsubsection{\texorpdfstring{detection()}{detection()}}
+{\footnotesize\ttfamily int Touch\+Sensor\+::detection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Finds a Boolean value (0 or 100) the scale is essential. It allows you to give importance to the data when it is sent to Edge\+Impulse. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_touch_sensor_a1b4abcb4fb4fe0ce92f812692a1fdb64}\label{class_touch_sensor_a1b4abcb4fb4fe0ce92f812692a1fdb64}} 
+\index{TouchSensor@{TouchSensor}!display@{display}}
+\index{display@{display}!TouchSensor@{TouchSensor}}
+\doxysubsubsection{\texorpdfstring{display()}{display()}}
+{\footnotesize\ttfamily void Touch\+Sensor\+::display (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+For display the pressure percentage on the pressure sensor. 
+
+\mbox{\Hypertarget{class_touch_sensor_a9c0482d7df18ae01076c25195603d778}\label{class_touch_sensor_a9c0482d7df18ae01076c25195603d778}} 
+\index{TouchSensor@{TouchSensor}!getPin@{getPin}}
+\index{getPin@{getPin}!TouchSensor@{TouchSensor}}
+\doxysubsubsection{\texorpdfstring{getPin()}{getPin()}}
+{\footnotesize\ttfamily const Pin\+Name \& Touch\+Sensor\+::get\+Pin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_touch_sensor_ad2285a68eb04c2d4088985a768edc8f4}\label{class_touch_sensor_ad2285a68eb04c2d4088985a768edc8f4}} 
+\index{TouchSensor@{TouchSensor}!setPin@{setPin}}
+\index{setPin@{setPin}!TouchSensor@{TouchSensor}}
+\doxysubsubsection{\texorpdfstring{setPin()}{setPin()}}
+{\footnotesize\ttfamily void Touch\+Sensor\+::set\+Pin (\begin{DoxyParamCaption}\item[{Pin\+Name}]{pin }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_touch_sensor_ab2fc90ef969cd6d5b03b80c91da89655}\label{class_touch_sensor_ab2fc90ef969cd6d5b03b80c91da89655}} 
+\index{TouchSensor@{TouchSensor}!m\_pin@{m\_pin}}
+\index{m\_pin@{m\_pin}!TouchSensor@{TouchSensor}}
+\doxysubsubsection{\texorpdfstring{m\_pin}{m\_pin}}
+{\footnotesize\ttfamily Pin\+Name Touch\+Sensor\+::m\+\_\+pin\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_touch_sensor_8hpp}{Touch\+Sensor.\+hpp}}\item 
+\mbox{\hyperlink{_touch_sensor_8cpp}{Touch\+Sensor.\+cpp}}\end{DoxyCompactItemize}

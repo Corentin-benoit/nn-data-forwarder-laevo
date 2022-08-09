@@ -1,0 +1,4 @@
+<map id="PotentiometerSensor::getRawDataOffsetPercentage_u16" name="PotentiometerSensor::getRawDataOffsetPercentage_u16">
+<area shape="rect" id="node1" title="Gets the raw data, from [0; UINT16_MAX] uint16_t and converts it to a percentage of [100; 0]% (assumi..." alt="" coords="5,5,259,47"/>
+<area shape="rect" id="node2" href="$_potentiometer_sensor_8cpp.html#a7716aac0a1beea49c4bccf279c84a823" title="For mapping value." alt="" coords="307,13,357,39"/>
+</map>

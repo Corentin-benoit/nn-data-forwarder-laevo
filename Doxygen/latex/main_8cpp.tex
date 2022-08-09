@@ -1,0 +1,204 @@
+\hypertarget{main_8cpp}{}\doxysection{main.\+cpp File Reference}
+\label{main_8cpp}\index{main.cpp@{main.cpp}}
+{\ttfamily \#include \char`\"{}mbed.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../\+L\+S\+M6\+D\+S\+L/\+L\+S\+M6\+D\+S\+L\+\_\+acc\+\_\+gyro\+\_\+driver.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../\+L\+S\+M6\+D\+S\+L/\+L\+S\+M6\+D\+S\+L\+Sensor.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}L\+S\+M6\+D\+S\+L/\+S\+T\+\_\+\+I\+N\+T\+E\+R\+F\+A\+C\+E\+S/\+Sensors/\+Pressure\+Sensor.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Touch\+Sensor.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Start\+Button.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Potentiometer\+Sensor.\+hpp\char`\"{}}\newline
+Include dependency graph for main.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{main_8cpp_aaadf617e5c95c7b1a1dec6d6fdd27f72}{to\+Degrees}}(x)~(x $\ast$ 57.\+2957795)
+\item 
+\#define \mbox{\hyperlink{main_8cpp_af765d05a9f2bbeb25c2ac7ac5f4ec12f}{to\+Radians}}(x)~(x $\ast$ 0.\+01745329252)
+\item 
+\#define \mbox{\hyperlink{main_8cpp_ad830e42658dadfe958e3261a13a1c7c9}{g0}}~9.\+812865328
+\item 
+\#define \mbox{\hyperlink{main_8cpp_a711582dd93d3aea70bf18408b3a6c72c}{B\+L\+I\+N\+K\+I\+N\+G\+\_\+\+R\+A\+TE}}~500ms
+\item 
+\#define \mbox{\hyperlink{main_8cpp_a8a9be9c4e9798b458eee1b4ce2cdebf3}{B\+U\+S\+Y\+\_\+\+L\+O\+O\+P\+\_\+\+D\+U\+R\+A\+T\+ON}}~9ms
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+Digital\+Out \mbox{\hyperlink{main_8cpp_a6b71ffd718e2af00cebeb05560b44be7}{led1}} (L\+E\+D1)
+\item 
+void \mbox{\hyperlink{main_8cpp_a5e6636e4b3e51e19adc9069d52000ed5}{init\+Calibration}} (int N)
+\begin{DoxyCompactList}\small\item\em Use for init display. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a4c13e79da87a8a6e8ece1559f497cce5}{calibrate\+\_\+sensors}} (float N)
+\begin{DoxyCompactList}\small\item\em Use for calibration. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}{main}} (void)
+\begin{DoxyCompactList}\small\item\em main \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_start_button}{Start\+Button}} \mbox{\hyperlink{main_8cpp_a406e502f12ca8af15c58262f84a977b0}{start\+Button}}
+\item 
+\mbox{\hyperlink{class_touch_sensor}{Touch\+Sensor}} \mbox{\hyperlink{main_8cpp_a548d1e61a459a99c93002faeb3253fcf}{sensor\+Button}} (A0)
+\item 
+\mbox{\hyperlink{class_potentiometer_sensor}{Potentiometer\+Sensor}} \mbox{\hyperlink{main_8cpp_a45960647009c74c8def74729bf5466f0}{potentiometer\+\_\+right}} (A3, 0)
+\item 
+\mbox{\hyperlink{class_potentiometer_sensor}{Potentiometer\+Sensor}} \mbox{\hyperlink{main_8cpp_a2b5d960a3ef2ecba36cc9abc80a030ff}{potentiometer\+\_\+left}} (A2, 1)
+\item 
+float \mbox{\hyperlink{main_8cpp_a487def46f65a3750287354443ea023f1}{gyr\+\_\+offset}} \mbox{[}3\mbox{]} = \{0\}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{main_8cpp_a711582dd93d3aea70bf18408b3a6c72c}\label{main_8cpp_a711582dd93d3aea70bf18408b3a6c72c}} 
+\index{main.cpp@{main.cpp}!BLINKING\_RATE@{BLINKING\_RATE}}
+\index{BLINKING\_RATE@{BLINKING\_RATE}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{BLINKING\_RATE}{BLINKING\_RATE}}
+{\footnotesize\ttfamily \#define B\+L\+I\+N\+K\+I\+N\+G\+\_\+\+R\+A\+TE~500ms}
+
+\mbox{\Hypertarget{main_8cpp_a8a9be9c4e9798b458eee1b4ce2cdebf3}\label{main_8cpp_a8a9be9c4e9798b458eee1b4ce2cdebf3}} 
+\index{main.cpp@{main.cpp}!BUSY\_LOOP\_DURATON@{BUSY\_LOOP\_DURATON}}
+\index{BUSY\_LOOP\_DURATON@{BUSY\_LOOP\_DURATON}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{BUSY\_LOOP\_DURATON}{BUSY\_LOOP\_DURATON}}
+{\footnotesize\ttfamily \#define B\+U\+S\+Y\+\_\+\+L\+O\+O\+P\+\_\+\+D\+U\+R\+A\+T\+ON~9ms}
+
+\mbox{\Hypertarget{main_8cpp_ad830e42658dadfe958e3261a13a1c7c9}\label{main_8cpp_ad830e42658dadfe958e3261a13a1c7c9}} 
+\index{main.cpp@{main.cpp}!g0@{g0}}
+\index{g0@{g0}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{g0}{g0}}
+{\footnotesize\ttfamily \#define g0~9.\+812865328}
+
+\mbox{\Hypertarget{main_8cpp_aaadf617e5c95c7b1a1dec6d6fdd27f72}\label{main_8cpp_aaadf617e5c95c7b1a1dec6d6fdd27f72}} 
+\index{main.cpp@{main.cpp}!toDegrees@{toDegrees}}
+\index{toDegrees@{toDegrees}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{toDegrees}{toDegrees}}
+{\footnotesize\ttfamily \#define to\+Degrees(\begin{DoxyParamCaption}\item[{}]{x }\end{DoxyParamCaption})~(x $\ast$ 57.\+2957795)}
+
+\mbox{\Hypertarget{main_8cpp_af765d05a9f2bbeb25c2ac7ac5f4ec12f}\label{main_8cpp_af765d05a9f2bbeb25c2ac7ac5f4ec12f}} 
+\index{main.cpp@{main.cpp}!toRadians@{toRadians}}
+\index{toRadians@{toRadians}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{toRadians}{toRadians}}
+{\footnotesize\ttfamily \#define to\+Radians(\begin{DoxyParamCaption}\item[{}]{x }\end{DoxyParamCaption})~(x $\ast$ 0.\+01745329252)}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_a4c13e79da87a8a6e8ece1559f497cce5}\label{main_8cpp_a4c13e79da87a8a6e8ece1559f497cce5}} 
+\index{main.cpp@{main.cpp}!calibrate\_sensors@{calibrate\_sensors}}
+\index{calibrate\_sensors@{calibrate\_sensors}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{calibrate\_sensors()}{calibrate\_sensors()}}
+{\footnotesize\ttfamily void calibrate\+\_\+sensors (\begin{DoxyParamCaption}\item[{float}]{N }\end{DoxyParamCaption})}
+
+
+
+Use for calibration. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em N} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_a5e6636e4b3e51e19adc9069d52000ed5}\label{main_8cpp_a5e6636e4b3e51e19adc9069d52000ed5}} 
+\index{main.cpp@{main.cpp}!initCalibration@{initCalibration}}
+\index{initCalibration@{initCalibration}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{initCalibration()}{initCalibration()}}
+{\footnotesize\ttfamily void init\+Calibration (\begin{DoxyParamCaption}\item[{int}]{N }\end{DoxyParamCaption})}
+
+
+
+Use for init display. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em N} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_a5e6636e4b3e51e19adc9069d52000ed5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=243pt]{main_8cpp_a5e6636e4b3e51e19adc9069d52000ed5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_a6b71ffd718e2af00cebeb05560b44be7}\label{main_8cpp_a6b71ffd718e2af00cebeb05560b44be7}} 
+\index{main.cpp@{main.cpp}!led1@{led1}}
+\index{led1@{led1}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{led1()}{led1()}}
+{\footnotesize\ttfamily Digital\+Out led1 (\begin{DoxyParamCaption}\item[{L\+E\+D1}]{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=317pt]{main_8cpp_a6b71ffd718e2af00cebeb05560b44be7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}\label{main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+main 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_a840291bc02cba5474a4cb46a9b9566fe_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{main_8cpp_a487def46f65a3750287354443ea023f1}\label{main_8cpp_a487def46f65a3750287354443ea023f1}} 
+\index{main.cpp@{main.cpp}!gyr\_offset@{gyr\_offset}}
+\index{gyr\_offset@{gyr\_offset}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{gyr\_offset}{gyr\_offset}}
+{\footnotesize\ttfamily float gyr\+\_\+offset\mbox{[}3\mbox{]} = \{0\}}
+
+\mbox{\Hypertarget{main_8cpp_a2b5d960a3ef2ecba36cc9abc80a030ff}\label{main_8cpp_a2b5d960a3ef2ecba36cc9abc80a030ff}} 
+\index{main.cpp@{main.cpp}!potentiometer\_left@{potentiometer\_left}}
+\index{potentiometer\_left@{potentiometer\_left}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{potentiometer\_left}{potentiometer\_left}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_potentiometer_sensor}{Potentiometer\+Sensor}} potentiometer\+\_\+left(A2, 1)}
+
+\mbox{\Hypertarget{main_8cpp_a45960647009c74c8def74729bf5466f0}\label{main_8cpp_a45960647009c74c8def74729bf5466f0}} 
+\index{main.cpp@{main.cpp}!potentiometer\_right@{potentiometer\_right}}
+\index{potentiometer\_right@{potentiometer\_right}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{potentiometer\_right}{potentiometer\_right}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_potentiometer_sensor}{Potentiometer\+Sensor}} potentiometer\+\_\+right(A3, 0)}
+
+\mbox{\Hypertarget{main_8cpp_a548d1e61a459a99c93002faeb3253fcf}\label{main_8cpp_a548d1e61a459a99c93002faeb3253fcf}} 
+\index{main.cpp@{main.cpp}!sensorButton@{sensorButton}}
+\index{sensorButton@{sensorButton}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{sensorButton}{sensorButton}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_touch_sensor}{Touch\+Sensor}} sensor\+Button(A0)}
+
+\mbox{\Hypertarget{main_8cpp_a406e502f12ca8af15c58262f84a977b0}\label{main_8cpp_a406e502f12ca8af15c58262f84a977b0}} 
+\index{main.cpp@{main.cpp}!startButton@{startButton}}
+\index{startButton@{startButton}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{startButton}{startButton}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_start_button}{Start\+Button}} start\+Button}
+

@@ -1,0 +1,95 @@
+\hypertarget{_potentiometer_sensor_8cpp}{}\doxysection{Potentiometer\+Sensor.\+cpp File Reference}
+\label{_potentiometer_sensor_8cpp}\index{PotentiometerSensor.cpp@{PotentiometerSensor.cpp}}
+{\ttfamily \#include \char`\"{}Potentiometer\+Sensor.\+hpp\char`\"{}}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include $<$cstdint$>$}\newline
+{\ttfamily \#include $<$ostream$>$}\newline
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+Include dependency graph for Potentiometer\+Sensor.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_potentiometer_sensor_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{_potentiometer_sensor_8cpp_a7716aac0a1beea49c4bccf279c84a823}{map}} (double x, double in\+\_\+min, double in\+\_\+max, double out\+\_\+min, double out\+\_\+max)
+\begin{DoxyCompactList}\small\item\em For mapping value. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{_potentiometer_sensor_8cpp_adb0aeb41c1441ec216045379984740f7}{calculate\+Global\+Torque}} (float torque\+\_\+right, float torque\+\_\+left)
+\begin{DoxyCompactList}\small\item\em Average torque. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Corentin B\+E\+N\+O\+IT 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2022-\/08-\/04
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2022 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_potentiometer_sensor_8cpp_adb0aeb41c1441ec216045379984740f7}\label{_potentiometer_sensor_8cpp_adb0aeb41c1441ec216045379984740f7}} 
+\index{PotentiometerSensor.cpp@{PotentiometerSensor.cpp}!calculateGlobalTorque@{calculateGlobalTorque}}
+\index{calculateGlobalTorque@{calculateGlobalTorque}!PotentiometerSensor.cpp@{PotentiometerSensor.cpp}}
+\doxysubsubsection{\texorpdfstring{calculateGlobalTorque()}{calculateGlobalTorque()}}
+{\footnotesize\ttfamily float calculate\+Global\+Torque (\begin{DoxyParamCaption}\item[{float}]{torque\+\_\+right,  }\item[{float}]{torque\+\_\+left }\end{DoxyParamCaption})}
+
+
+
+Average torque. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em torque\+\_\+right} & \\
+\hline
+{\em torque\+\_\+left} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_potentiometer_sensor_8cpp_a7716aac0a1beea49c4bccf279c84a823}\label{_potentiometer_sensor_8cpp_a7716aac0a1beea49c4bccf279c84a823}} 
+\index{PotentiometerSensor.cpp@{PotentiometerSensor.cpp}!map@{map}}
+\index{map@{map}!PotentiometerSensor.cpp@{PotentiometerSensor.cpp}}
+\doxysubsubsection{\texorpdfstring{map()}{map()}}
+{\footnotesize\ttfamily double map (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{in\+\_\+min,  }\item[{double}]{in\+\_\+max,  }\item[{double}]{out\+\_\+min,  }\item[{double}]{out\+\_\+max }\end{DoxyParamCaption})}
+
+
+
+For mapping value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em in\+\_\+min} & \\
+\hline
+{\em in\+\_\+max} & \\
+\hline
+{\em out\+\_\+min} & \\
+\hline
+{\em out\+\_\+max} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{_potentiometer_sensor_8cpp_a7716aac0a1beea49c4bccf279c84a823_icgraph}
+\end{center}
+\end{figure}

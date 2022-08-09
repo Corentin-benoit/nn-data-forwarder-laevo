@@ -1,0 +1,199 @@
+\hypertarget{class_start_button}{}\doxysection{Start\+Button Class Reference}
+\label{class_start_button}\index{StartButton@{StartButton}}
+
+
+{\ttfamily \#include $<$Start\+Button.\+hpp$>$}
+
+
+
+Collaboration diagram for Start\+Button\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=187pt]{class_start_button__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_start_button_a4e1d70591d520bdb32215f06c6b6c518}{Start\+Button}} ()
+\item 
+\mbox{\hyperlink{class_start_button_ab27a4f93d1c67ae577f2f4e4690f1325}{Start\+Button}} (Pin\+Name pin)
+\item 
+\mbox{\hyperlink{class_start_button_a7ccb63695597c44b892fc3459299f53a}{$\sim$\+Start\+Button}} ()
+\item 
+void \mbox{\hyperlink{class_start_button_a0dd7d447136ea7f94c8f165824d4faf8}{set\+Pin}} (Pin\+Name pin)
+\item 
+const Pin\+Name \& \mbox{\hyperlink{class_start_button_a180a350740475b90df916dd2882393da}{get\+Pin}} () const
+\item 
+void \mbox{\hyperlink{class_start_button_a1723c569f806b67c15d320d2ec1b1453}{display\+Wait}} () const
+\begin{DoxyCompactList}\small\item\em Information for the user. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_start_button_ad1b9e41a5cd40ba447df7d947e1e7169}{init\+Display\+I\+MU}} () const
+\begin{DoxyCompactList}\small\item\em Information for the user. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_start_button_acadeee2918559367cdc04dcdad42c2d2}{init\+Display\+Pot}} () const
+\begin{DoxyCompactList}\small\item\em Information for the user. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_start_button_af2429a4219a7e9868f57d23dcb60baa5}{detection}} (Digital\+In \mbox{\hyperlink{main_8cpp_a406e502f12ca8af15c58262f84a977b0}{start\+Button}}) const
+\begin{DoxyCompactList}\small\item\em Detects when the user clicks on the button (on the card or external button) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Pin\+Name \mbox{\hyperlink{class_start_button_ad704542cf9bee256e100a1cad16ceb00}{m\+\_\+pin}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_start_button_a4e1d70591d520bdb32215f06c6b6c518}\label{class_start_button_a4e1d70591d520bdb32215f06c6b6c518}} 
+\index{StartButton@{StartButton}!StartButton@{StartButton}}
+\index{StartButton@{StartButton}!StartButton@{StartButton}}
+\doxysubsubsection{\texorpdfstring{StartButton()}{StartButton()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Start\+Button\+::\+Start\+Button (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_start_button_ab27a4f93d1c67ae577f2f4e4690f1325}\label{class_start_button_ab27a4f93d1c67ae577f2f4e4690f1325}} 
+\index{StartButton@{StartButton}!StartButton@{StartButton}}
+\index{StartButton@{StartButton}!StartButton@{StartButton}}
+\doxysubsubsection{\texorpdfstring{StartButton()}{StartButton()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Start\+Button\+::\+Start\+Button (\begin{DoxyParamCaption}\item[{Pin\+Name}]{pin }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_start_button_a7ccb63695597c44b892fc3459299f53a}\label{class_start_button_a7ccb63695597c44b892fc3459299f53a}} 
+\index{StartButton@{StartButton}!````~StartButton@{$\sim$StartButton}}
+\index{````~StartButton@{$\sim$StartButton}!StartButton@{StartButton}}
+\doxysubsubsection{\texorpdfstring{$\sim$StartButton()}{~StartButton()}}
+{\footnotesize\ttfamily Start\+Button\+::$\sim$\+Start\+Button (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_start_button_af2429a4219a7e9868f57d23dcb60baa5}\label{class_start_button_af2429a4219a7e9868f57d23dcb60baa5}} 
+\index{StartButton@{StartButton}!detection@{detection}}
+\index{detection@{detection}!StartButton@{StartButton}}
+\doxysubsubsection{\texorpdfstring{detection()}{detection()}}
+{\footnotesize\ttfamily bool Start\+Button\+::detection (\begin{DoxyParamCaption}\item[{Digital\+In}]{start\+Button }\end{DoxyParamCaption}) const}
+
+
+
+Detects when the user clicks on the button (on the card or external button) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em start\+Button} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_start_button_af2429a4219a7e9868f57d23dcb60baa5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_start_button_a1723c569f806b67c15d320d2ec1b1453}\label{class_start_button_a1723c569f806b67c15d320d2ec1b1453}} 
+\index{StartButton@{StartButton}!displayWait@{displayWait}}
+\index{displayWait@{displayWait}!StartButton@{StartButton}}
+\doxysubsubsection{\texorpdfstring{displayWait()}{displayWait()}}
+{\footnotesize\ttfamily void Start\+Button\+::display\+Wait (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Information for the user. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_start_button_a1723c569f806b67c15d320d2ec1b1453_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=292pt]{class_start_button_a1723c569f806b67c15d320d2ec1b1453_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_start_button_a180a350740475b90df916dd2882393da}\label{class_start_button_a180a350740475b90df916dd2882393da}} 
+\index{StartButton@{StartButton}!getPin@{getPin}}
+\index{getPin@{getPin}!StartButton@{StartButton}}
+\doxysubsubsection{\texorpdfstring{getPin()}{getPin()}}
+{\footnotesize\ttfamily const Pin\+Name \& Start\+Button\+::get\+Pin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_start_button_ad1b9e41a5cd40ba447df7d947e1e7169}\label{class_start_button_ad1b9e41a5cd40ba447df7d947e1e7169}} 
+\index{StartButton@{StartButton}!initDisplayIMU@{initDisplayIMU}}
+\index{initDisplayIMU@{initDisplayIMU}!StartButton@{StartButton}}
+\doxysubsubsection{\texorpdfstring{initDisplayIMU()}{initDisplayIMU()}}
+{\footnotesize\ttfamily void Start\+Button\+::init\+Display\+I\+MU (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Information for the user. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_start_button_ad1b9e41a5cd40ba447df7d947e1e7169_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_start_button_ad1b9e41a5cd40ba447df7d947e1e7169_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_start_button_acadeee2918559367cdc04dcdad42c2d2}\label{class_start_button_acadeee2918559367cdc04dcdad42c2d2}} 
+\index{StartButton@{StartButton}!initDisplayPot@{initDisplayPot}}
+\index{initDisplayPot@{initDisplayPot}!StartButton@{StartButton}}
+\doxysubsubsection{\texorpdfstring{initDisplayPot()}{initDisplayPot()}}
+{\footnotesize\ttfamily void Start\+Button\+::init\+Display\+Pot (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Information for the user. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_start_button_acadeee2918559367cdc04dcdad42c2d2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_start_button_acadeee2918559367cdc04dcdad42c2d2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_start_button_a0dd7d447136ea7f94c8f165824d4faf8}\label{class_start_button_a0dd7d447136ea7f94c8f165824d4faf8}} 
+\index{StartButton@{StartButton}!setPin@{setPin}}
+\index{setPin@{setPin}!StartButton@{StartButton}}
+\doxysubsubsection{\texorpdfstring{setPin()}{setPin()}}
+{\footnotesize\ttfamily void Start\+Button\+::set\+Pin (\begin{DoxyParamCaption}\item[{Pin\+Name}]{pin }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_start_button_ad704542cf9bee256e100a1cad16ceb00}\label{class_start_button_ad704542cf9bee256e100a1cad16ceb00}} 
+\index{StartButton@{StartButton}!m\_pin@{m\_pin}}
+\index{m\_pin@{m\_pin}!StartButton@{StartButton}}
+\doxysubsubsection{\texorpdfstring{m\_pin}{m\_pin}}
+{\footnotesize\ttfamily Pin\+Name Start\+Button\+::m\+\_\+pin\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_start_button_8hpp}{Start\+Button.\+hpp}}\item 
+\mbox{\hyperlink{_start_button_8cpp}{Start\+Button.\+cpp}}\end{DoxyCompactItemize}

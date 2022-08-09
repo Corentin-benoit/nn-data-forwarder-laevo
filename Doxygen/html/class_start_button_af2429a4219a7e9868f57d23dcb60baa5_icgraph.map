@@ -1,0 +1,8 @@
+<map id="StartButton::detection" name="StartButton::detection">
+<area shape="rect" id="node1" title="Detects when the user clicks on the button (on the card or external button)" alt="" coords="584,56,749,83"/>
+<area shape="rect" id="node2" href="$class_start_button.html#a1723c569f806b67c15d320d2ec1b1453" title="Information for the user." alt="" coords="108,5,288,32"/>
+<area shape="rect" id="node4" href="$class_start_button.html#ad1b9e41a5cd40ba447df7d947e1e7169" title="Information for the user." alt="" coords="336,56,536,83"/>
+<area shape="rect" id="node6" href="$class_start_button.html#acadeee2918559367cdc04dcdad42c2d2" title="Information for the user." alt="" coords="339,107,533,133"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="5,31,60,57"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#a5e6636e4b3e51e19adc9069d52000ed5" title="Use for init display." alt="" coords="141,56,255,83"/>
+</map>
